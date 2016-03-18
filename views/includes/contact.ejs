@@ -18,9 +18,21 @@
 </div>
 
 <h2>Ask a question:</h2>
-
-	<form action="">
-		<input type="text" placeholder="Name:"><br><br>
-		<textarea name="message" id="" cols="30" rows="10" placeholder="Please type your query here:"></textarea><br><br>
-		<button>Submit</button>
-	</form>
+<form action="">
+	<div class="row">
+		<div class="form-group col-xs-3">
+				<input type="text" class="form-control" id="inputName" placeholder="Name:">
+		</div>
+	</div>
+	<div class="row">
+		<div class="form-group col-xs-3">
+			<input type="email" class="form-control" id="inputEmail" placeholder="Email:">
+		</div>
+	</div>
+	<div class="row">
+		<div class="form-group col-xs-3">
+			<textarea name="message" class="form-control" id="inputText" cols="30" rows="10" placeholder="Please type your query here:"></textarea>
+		</div>
+	</div>
+		<button type="submit" class="btn btn-default">Submit</button>
+</form>
