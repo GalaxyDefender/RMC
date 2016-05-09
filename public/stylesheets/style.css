@@ -6,3 +6,11 @@ body {
 a {
   color: #00B7FF;
 }
+
+#page1, #page2, #page3, #page4 {
+	height: 1200px;
+}
+
+.h1_padding {
+	padding-top: 60px;
+}
