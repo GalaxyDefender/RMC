@@ -18,6 +18,7 @@ var app = express();
 // app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
+
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
@@ -25,65 +26,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
-app.post('/', function(req,res){
-  var mailOpts, smtpTrans;
-
-  var googleResponse = "";
-  var SECRET = "6LfoDx8TAAAAAJEfLEqpK88UWY1yJb6NMwfkSll7"; //secret key from google catcha
-
-  // Display's message when user didn't use CAPTCHA
-  if(req.body["g-recaptcha-response"] === undefined || req.body["g-recaptcha-response"] === '' || req.body["g-recaptcha-response"] === null){
-    return res.render('includes/contact');
-  }
-
-  // This code figures out the CAPTCHA
-  var httpsReq = https.request('https://www.google.com/recaptcha/api/siteverify' + '?secret=' + SECRET + '&response=' + req.body["g-recaptcha-response"], function(httpsRes){
-    httpsRes.on("data", function(chunk){
-      googleResponse += chunk;
-    });
-    httpsRes.on("end", function(){
-      res.render('includes/contact');
-    });
-  });
-
-  httpsReq.on("error", function(err){
-    res.send("Error:" + JSON.stringify(err));
-  });
-
-  httpsReq.end();
-
-  // mail options settings
-  mailOpts = {
-    from: 'qgerard.gerard@gmail.com',
-    to: 'quentin@realtelematics.co.za',
-    subject: 'Website contact - ' + req.body.subject,
-    html: '<h1>' + req.body.subject + '</h1><p>' + req.body.message + '</p><br><p>Name: ' + req.body.username + '</p><p>Email address: ' + req.body.email + '</p><p>Contact number: ' + req.body.contact_number + '</p>' 
-  };
-
-  // SMTP transporter
-  smtpTrans = nodemailer.createTransport("SMTP",{
-    service: "Gmail",
-    auth: {
-        user: "qgerard.gerard@gmail.com",
-        pass: "mwcciqcglhnukibf"
-    }
-  });
-
-  // Sending the email
-  smtpTrans.sendMail(mailOpts, function(error, message){
-    if(error){
-          res.render('includes/contact');
-          console.log(error);
-      }else{
-          console.log(req.body.username + ' <' + req.body.email + '>');
-          res.render('includes/contact');
-          console.log("Message sent");
-        }
-
-  });
-    smtpTrans.close();
-});
 
 app.use('/', routes);
 app.use('/users', users);
