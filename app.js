@@ -27,6 +27,66 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.post('/', function(req,res){
+  var mailOpts, smtpTrans;
+
+  var googleResponse = "";
+  var SECRET = "6LfoDx8TAAAAAJEfLEqpK88UWY1yJb6NMwfkSll7"; //secret key from google catcha
+
+  // Display's message when user didn't use CAPTCHA
+  if(req.body["g-recaptcha-response"] === undefined || req.body["g-recaptcha-response"] === '' || req.body["g-recaptcha-response"] === null){
+    return res.render('index', {CAPTCHA: 'Please select CAPTCHA'});
+  }
+
+  // This code figures out the CAPTCHA
+  var httpsReq = https.request('https://www.google.com/recaptcha/api/siteverify' + '?secret=' + SECRET + '&response=' + req.body["g-recaptcha-response"], function(httpsRes){
+    httpsRes.on("data", function(chunk){
+      googleResponse += chunk;
+    });
+    httpsRes.on("end", function(){
+      res.render('sent');
+    });
+  });
+
+  httpsReq.on("error", function(err){
+    res.send("Error:" + JSON.stringify(err));
+  });
+
+  httpsReq.end();
+
+  // mail options settings
+  mailOpts = {
+    from: 'qgerard.gerard@gmail.com',
+    to: 'quentin@realtelematics.co.za',
+    subject: 'Website contact - ' + req.body.inputSubject,
+    html: '<h1>' + req.body.inputSubject + '</h1><p>' + req.body.inputText + '</p><br><p>Name: ' + req.body.inputName + '</p><p>Email address: ' + req.body.inputEmail + '</p><p>Contact number: ' + req.body.inputTel + '</p>' 
+  };
+
+  // SMTP transporter
+  smtpTrans = nodemailer.createTransport("SMTP",{
+    service: "Gmail",
+    auth: {
+        user: "qgerard.gerard@gmail.com",
+        pass: "mwcciqcglhnukibf"
+    }
+  });
+
+  // Sending the email
+  smtpTrans.sendMail(mailOpts, function(error, message){
+    if(error){
+          res.render('/');
+          console.log(error);
+      }else{
+          console.log(req.body.inputName + ' <' + req.body.inputEmail + '>');
+          res.render('sent');
+          console.log("Message sent");
+        }
+
+  });
+    smtpTrans.close();
+});
+
+
 app.use('/', routes);
 app.use('/users', users);
 
