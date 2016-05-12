@@ -5,7 +5,9 @@ body {
 }
 
 .container {
-	background-color: #ACA8A8;
+	/*background-color: #ACA8A8;*/
+	border-right: 8px solid #A6A2A2;
+	border-left: 8px solid #A6A2A2;
 }
 
 a {
@@ -16,23 +18,13 @@ a {
 	height: 800px;
 }
 
-/*#page1 {
-	background-color: #8588C0;
+#page1 {
+	background: url(../images/Binary-_iS_.jpg) no-repeat;
 }
 
 #page2 {
-	background-color: #6ECF70;
+	background: url(../images/thumb.jpg) no-repeat;
 }
-
-#page3 {
-	background-color: #B098DC;
-}
-
-#page4 {
-	background-color: #C89A6D;
-}*/
-
-
 
 .h_padding {
 	padding-top: 60px;
@@ -40,4 +32,12 @@ a {
 
 .nav {
 	margin-right: 15px;
+}
+
+iframe, .embed-style {
+	border: 4px outset #ACA8A8;
+}
+
+input, .form-control, .btn {
+	border: 2px outset #ACA8A8;	
 }

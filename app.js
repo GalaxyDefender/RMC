@@ -86,7 +86,6 @@ app.post('/', function(req,res){
     smtpTrans.close();
 });
 
-
 app.use('/', routes);
 app.use('/users', users);
 

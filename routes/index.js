@@ -3,11 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', {CAPTCHA: ''});
-});
-
-router.get('/#contact', function(req, res, next) {
-  res.render('index');
+  res.render('index', {CAPTCHA: '', title: "Home view"});
 });
 
 /* GET home page. */
