@@ -4,6 +4,10 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+.container {
+	background-color: #ACA8A8;
+}
+
 a {
   color: #00B7FF;
 }
@@ -12,7 +16,7 @@ a {
 	height: 800px;
 }
 
-#page1 {
+/*#page1 {
 	background-color: #8588C0;
 }
 
@@ -26,7 +30,9 @@ a {
 
 #page4 {
 	background-color: #C89A6D;
-}
+}*/
+
+
 
 .h_padding {
 	padding-top: 60px;
