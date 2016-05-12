@@ -12,6 +12,26 @@ a {
 	height: 800px;
 }
 
+#page1 {
+	background-color: #8588C0;
+}
+
+#page2 {
+	background-color: #6ECF70;
+}
+
+#page3 {
+	background-color: #B098DC;
+}
+
+#page4 {
+	background-color: #C89A6D;
+}
+
 .h_padding {
 	padding-top: 60px;
+}
+
+.nav {
+	margin-right: 15px;
 }
