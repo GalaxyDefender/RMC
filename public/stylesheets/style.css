@@ -11,7 +11,7 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #000000;
 }
 
 #home, #about, #services, #contact {
@@ -29,9 +29,18 @@ a {
 	background: url(../images/thumb.jpg) no-repeat;
 }
 
-/*#work {
-	background: url(../images/Ladysmith.jpg) no-repeat;
-}*/
+#services {
+	background: url(../images/services.jpg) no-repeat;
+}
+
+.test {
+	padding: 10px;
+	margin: 30px;
+}
+
+.inline {
+	display: inline; 
+}
 
 .transbox {
 	background-color: #ffffff;
