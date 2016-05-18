@@ -27,7 +27,10 @@ a {
 
 #services {
 	background: url(../images/thumb.jpg) no-repeat;
-	
+}
+
+#work {
+	background: url(../images/Ladysmith.jpg) no-repeat;
 }
 
 .transbox {
