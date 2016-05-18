@@ -16,16 +16,18 @@ a {
 
 #home, #services, #work, #contact {
 	height: 800px;
+	margin-bottom: 10px;
+	padding-top: 50px;
 }
 
 #home {
 	background: url(../images/Binary-_iS_.jpg) no-repeat;
-	padding-top: 50px;
+	
 }
 
 #services {
 	background: url(../images/thumb.jpg) no-repeat;
-	padding-top: 50px;
+	
 }
 
 .transbox {
