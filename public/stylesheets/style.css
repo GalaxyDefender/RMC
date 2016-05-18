@@ -29,9 +29,9 @@ a {
 	background: url(../images/thumb.jpg) no-repeat;
 }
 
-#work {
+/*#work {
 	background: url(../images/Ladysmith.jpg) no-repeat;
-}
+}*/
 
 .transbox {
 	background-color: #ffffff;
@@ -56,4 +56,8 @@ iframe, .embed-style {
 
 input, .form-control, .btn {
 	border: 2px outset #ACA8A8;	
+}
+
+.img-circle {
+	border: 2px solid black;
 }
