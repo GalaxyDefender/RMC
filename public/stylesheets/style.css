@@ -14,17 +14,17 @@ a {
   color: #00B7FF;
 }
 
-#page1, #page2, #page3, #page4 {
+#home, #services, #work, #contact {
 	height: 800px;
 }
 
-#page1 {
+#home {
 	background: url(../images/Binary-_iS_.jpg) no-repeat;
+	padding-top: 50px;
 }
 
-#page2 {
+#services {
 	background: url(../images/thumb.jpg) no-repeat;
-	/*border: 2px solid black;*/
 	padding-top: 50px;
 }
 
@@ -34,6 +34,7 @@ a {
 	padding: 10px;
 	opacity: 0.8;
 	border: 1px solid black;
+	color: #000000;
 }
 
 /*.h_padding {
