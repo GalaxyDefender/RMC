@@ -1,0 +1,1214 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"borr",
+				"border-right"
+			],
+			[
+				"boder",
+				"border"
+			],
+			[
+				"colo",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"script",
+				"script	<script>"
+			],
+			[
+				"get",
+				"get	Get Elements"
+			],
+			[
+				"boreco",
+				"border-color"
+			],
+			[
+				"boc",
+				"border-color"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"style",
+				"style	<style>"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"express",
+				"expressValidator"
+			],
+			[
+				"modul",
+				"module.exports"
+			],
+			[
+				"console",
+				"console	console.log()"
+			],
+			[
+				"mongo",
+				"mongodb_tut"
+			],
+			[
+				"he",
+				"helloworld"
+			],
+			[
+				"req",
+				"req	require"
+			],
+			[
+				"confi",
+				"configurations"
+			],
+			[
+				"user",
+				"user4"
+			],
+			[
+				"cono",
+				"console	console.log()"
+			],
+			[
+				"cookie",
+				"cookieParser"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"ur",
+				"urlencodedParser"
+			],
+			[
+				"consl",
+				"console	console.log()"
+			],
+			[
+				"even",
+				"eventListerners"
+			],
+			[
+				"event",
+				"eventEmitter"
+			],
+			[
+				"eve",
+				"eventEmitter"
+			],
+			[
+				"liste",
+				"listerner1"
+			],
+			[
+				"ex",
+				"executed"
+			],
+			[
+				"SMS",
+				"SMSvoid"
+			],
+			[
+				"S",
+				"SMSvoid"
+			],
+			[
+				"SM",
+				"SMSsent"
+			],
+			[
+				"di",
+				"dig00"
+			],
+			[
+				"to",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"cli",
+				"click	.click()"
+			],
+			[
+				"cl",
+				"click	.click()"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"body_",
+				"body_scada"
+			],
+			[
+				"bod",
+				"body_about"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"ul",
+				"ul	<ul>"
+			],
+			[
+				"re",
+				"req	require …"
+			],
+			[
+				"i",
+				"inc	#include \"…\""
+			],
+			[
+				"loa",
+				"loadContainer"
+			],
+			[
+				"lao",
+				"loadContainer"
+			],
+			[
+				"text",
+				"textStatus"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"conn",
+				"connectionInfo"
+			],
+			[
+				"mssn",
+				"mssql_num_rows"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"my",
+				"myDB"
+			],
+			[
+				"mss",
+				"mssql_connect"
+			],
+			[
+				"html",
+				"html	.html()"
+			],
+			[
+				"conte",
+				"content"
+			],
+			[
+				"label",
+				"label	<label>"
+			],
+			[
+				"con",
+				"console	console.log()"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"css",
+				"css	.css() - multiple"
+			],
+			[
+				"cs",
+				"css	.css() - multiple"
+			],
+			[
+				"mo",
+				"mouseleave	mouseleave"
+			],
+			[
+				"mouso",
+				"mouseover	mouseover"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"backi",
+				"background-image"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"direc",
+				"directory"
+			],
+			[
+				"str",
+				"strtolower"
+			],
+			[
+				"DB",
+				"DB_NAME"
+			],
+			[
+				"artic",
+				"articles"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"param",
+				"params"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"file",
+				"_file"
+			],
+			[
+				"com",
+				"components"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"emplyee",
+				"employee_name"
+			],
+			[
+				"imge",
+				"image"
+			],
+			[
+				"show",
+				"showImage"
+			],
+			[
+				"eac",
+				"each	.each()"
+			],
+			[
+				"pho",
+				"photoGallery"
+			],
+			[
+				"att",
+				"attr	.attr() - multiple"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"pla",
+				"videoPlayer"
+			],
+			[
+				"vide",
+				"videoPlayer"
+			],
+			[
+				"emb",
+				"embedUrl"
+			],
+			[
+				"thumb",
+				"thumbnailImg"
+			],
+			[
+				"vid",
+				"videoLink"
+			],
+			[
+				"thum",
+				"thumbnailImg"
+			],
+			[
+				"thu",
+				"thumbnailUrl"
+			],
+			[
+				"photo",
+				"photoImage"
+			],
+			[
+				"app",
+				"append	.append"
+			],
+			[
+				"left",
+				"leftClick"
+			],
+			[
+				"new",
+				"newRight"
+			],
+			[
+				"pos",
+				"posDefault"
+			],
+			[
+				"right",
+				"rightBtn"
+			],
+			[
+				"ajax",
+				"ajax	$.ajax()"
+			],
+			[
+				"kitte",
+				"kittenClick"
+			],
+			[
+				"on",
+				"onClick"
+			],
+			[
+				"counter",
+				"counterButton"
+			],
+			[
+				"coun",
+				"counterButton"
+			],
+			[
+				"appen",
+				"appendChild"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"movie",
+				"movieInfo"
+			],
+			[
+				"GSM",
+				"GSMoutput"
+			],
+			[
+				"mi",
+				"milli2"
+			],
+			[
+				"mill",
+				"milli2"
+			],
+			[
+				"milli",
+				"milliOut"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"off",
+				"offSet"
+			],
+			[
+				"hei",
+				"heightOfRes"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"read",
+				"readBook"
+			],
+			[
+				"char",
+				"charAt"
+			],
+			[
+				"le",
+				"length-1"
+			],
+			[
+				"consol",
+				"console	console.log()"
+			],
+			[
+				"not",
+				"notIndex"
+			],
+			[
+				"no",
+				"notIndex"
+			],
+			[
+				"bad",
+				"badIndex"
+			],
+			[
+				"ind",
+				"indexOf"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ejs",
+				"Set Syntax: EJS (<% and %>)"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3-ht",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"bs3",
+				"Snippet: bs3-navbar"
+			],
+			[
+				"html",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"vbs",
+				"Set Syntax: VBScript"
+			],
+			[
+				"bs3na",
+				"Snippet: bs3-navbar-responsive"
+			],
+			[
+				"bs3nav",
+				"Snippet: bs3-navbar-responsive"
+			],
+			[
+				"bs3-na",
+				"Snippet: bs3-navbar"
+			],
+			[
+				"p",
+				"Set Syntax: PHP"
+			],
+			[
+				"ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"rails",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"C++",
+				"Set Syntax: Objective-C++"
+			],
+			[
+				"html	",
+				"Set Syntax: HTML5"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jq",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"asp.ne",
+				"AspNetSwitch: .aspx--.aspx.designer.cs"
+			],
+			[
+				"asp.",
+				"AspNetSwitch: .aspx--.aspx.designer.cs"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"jqu",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"asp",
+				"Set Syntax: ASP"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"jque",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"DOc",
+				"Snippet: DOCTYPE HTML"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"jslin",
+				"JSLint"
+			],
+			[
+				"web",
+				"Set Syntax: Web Inspector (Log)"
+			],
+			[
+				"webn",
+				"Set Syntax: Web Inspector (Stack)"
+			],
+			[
+				"jsl",
+				"JSLint"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML5"
+			],
+			[
+				"Snippet: theme",
+				"Snippet: Bootstrap hero example"
+			],
+			[
+				"coff",
+				"Coffee: Run Script"
+			],
+			[
+				"Snippet: deb",
+				"Snippet: console.debug()"
+			],
+			[
+				"debu",
+				"Snippet: debugger"
+			],
+			[
+				"run",
+				"Plugin Debugger: run debug_example (opens Debugger)"
+			],
+			[
+				"console",
+				"Snippet: console.log()"
+			],
+			[
+				"coffe",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"javas",
+				"Set Syntax: Java Properties"
+			],
+			[
+				"co",
+				"Coffee: Run Script"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			],
+			[
+				"sass",
+				"Snippet: +include - Sass syntax"
+			],
+			[
+				"in stall",
+				"Package Control: Install Package"
+			],
+			[
+				"boot",
+				"Snippet: Bootstrap carousel"
+			],
+			[
+				"boots",
+				"Snippet: Bootstrap toolbar"
+			],
+			[
+				"foun",
+				"Snippet: four columns"
+			],
+			[
+				"found",
+				"Snippet: Zurb Foundation - ul Block Grid - Four up"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"script",
+				"Snippet: <script>"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/user/Documents/GitHub/rtu/script/io.js",
+		"/C/Users/user/Documents/GitHub/rtu/package.json",
+		"/C/Users/user/Documents/GitHub/rtu/README.md",
+		"/C/Users/user/Documents/GitHub/rtu/app/app.module.js",
+		"/C/Users/user/Documents/GitHub/rtu/apps/scripts/app.js",
+		"/C/Users/user/Documents/GitHub/rtu/app/index.html",
+		"/C/Users/user/Documents/GitHub/rtu/script/settings.js",
+		"/C/Users/user/Documents/GitHub/rtu/config.js",
+		"/C/Users/user/Documents/GitHub/rtu/apps/default.html",
+		"/C/Users/user/Desktop/Webstuff/RMC/routes/index.js",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/sent.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/index.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/work.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/navigation.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/contact.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/home.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/public/stylesheets/style.css",
+		"/C/Users/user/Desktop/rtu-dev/app/app.module.js",
+		"/C/Users/user/Desktop/rtu-dev/script/tcpclient.js",
+		"/C/Users/user/Desktop/rtu-dev/app/app.routes.js",
+		"/C/Users/user/Desktop/rtu-dev/app/services/services.js",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/partials/js.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/partials/css.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/public/js/custom.js",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/about.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/package.json",
+		"/C/Users/user/Desktop/Webstuff/RMC/app.js",
+		"/C/Users/user/Desktop/Webstuff/Email_App/views/contact.jade",
+		"/C/Users/user/Desktop/Webstuff/Email_App/routes/index.js",
+		"/C/Users/user/Desktop/Webstuff/Email_App/package.json",
+		"/C/Users/user/Desktop/Webstuff/Email_App/views/layout.jade",
+		"/C/Users/user/Desktop/Webstuff/Email_App/app.js",
+		"/C/Users/user/Desktop/Webstuff/mailgun_node_tutorial/views/index.jade",
+		"/C/Users/user/Desktop/Webstuff/mailgun_node_tutorial/views/submitted.jade",
+		"/C/Users/user/Desktop/Webstuff/mailgun_node_tutorial/views/error.jade",
+		"/C/Users/user/Desktop/Webstuff/mailgun_node_tutorial/routes/main.js",
+		"/C/Users/user/Desktop/Webstuff/mailgun_node_tutorial/routes/main",
+		"/C/Users/user/AppData/Local/Temp/client_secret_213095124748-ae5q087i1vbvsfh633fs6tdtvp7naijb.apps.googleusercontent.com.json",
+		"/C/Users/user/Desktop/Webstuff/Email_App/views/index.jade",
+		"/C/Users/user/Desktop/Webstuff/Email_App/views/email.jade",
+		"/C/Users/user/Desktop/Webstuff/Email_App/quickstart.js",
+		"/C/Users/user/Downloads/client_secret_213095124748-ae5q087i1vbvsfh633fs6tdtvp7naijb.apps.googleusercontent.com.json",
+		"/C/Users/user/Desktop/Webstuff/Email_App/node_modules/nodemailer/package.json",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/index.html",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/layout.jade",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/index.jade",
+		"/C/Users/user/Desktop/Webstuff/RMC/public/stylesheets/bootstrap.min.css",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/test2.jade",
+		"/C/Users/user/Desktop/Webstuff/Node/superheroCRUD/app.js",
+		"/C/Users/user/Desktop/Webstuff/Node/superheroCRUD/routes/api.js",
+		"/C/Users/user/Desktop/Webstuff/Node/movieCRUD/models/movie.js",
+		"/C/Users/user/Desktop/Webstuff/Node/movieCRUD/routes/movie.js",
+		"/C/Users/user/Desktop/Webstuff/Node/movieCRUD/package.json",
+		"/C/Users/user/Desktop/Webstuff/Node/node-mongoose-form/views/layout.jade",
+		"/C/Users/user/Desktop/Webstuff/Node/node-mongoose-form/routes/users.js",
+		"/C/Users/user/Desktop/Webstuff/Node/node-mongoose-form/package.json",
+		"/C/Users/user/Desktop/Webstuff/Node/nodetest2/package.json",
+		"/C/Users/user/Desktop/Webstuff/Node/nodetest2/views/layout.jade",
+		"/C/Users/user/Desktop/Webstuff/Node/nodetest2/views/index.jade",
+		"/C/Users/user/Desktop/Webstuff/Node/nodetest2/public/stylesheets/style.css",
+		"/C/Users/user/Desktop/Webstuff/Node/todo/db.js",
+		"/C/Users/user/Desktop/Webstuff/Node/Vidzy/package.json",
+		"/C/Users/user/Desktop/Webstuff/Node/mongoose_tut/node_modules/mongodb/README.md",
+		"/C/Users/user/Desktop/Webstuff/Node/mongodb_tut/views/index.jade",
+		"/C/Users/user/Desktop/Webstuff/Node/mongodb_tut/routes/index.js",
+		"/C/Users/user/Desktop/Webstuff/Node/mongodb_tut/views/userlist.jade",
+		"/C/Users/user/Desktop/Webstuff/Node/mongoose_tut/package.json",
+		"/C/Users/user/Desktop/Webstuff/Node/nodetest1/routes/index.js",
+		"/C/Users/user/Desktop/Webstuff/Node/nodetest1/views/newuser.jade",
+		"/C/Users/user/Desktop/Webstuff/Node/data_add/package.json",
+		"/C/Users/user/Desktop/Webstuff/Node/nodetest1/node_modules/bson/ext/index.js",
+		"/C/Users/user/Desktop/Webstuff/Node/nodetest1/node_modules/bson/browser_build/bson.js",
+		"/C/Users/user/Desktop/Webstuff/Node/nodetest1/app.js",
+		"/C/Users/user/Desktop/Webstuff/Node/nodetest1/views/userlist.jade",
+		"/C/Users/user/Desktop/Webstuff/Node/nodetest1/package.json",
+		"/C/Users/user/Desktop/Webstuff/Node/nodetest1/views/helloworld.jade",
+		"/D/win/IJPLM/setup.exe",
+		"/C/Users/user/Desktop/Webstuff/Navigation bar/css/jasny-bootstrap.css",
+		"/C/Users/user/Desktop/Webstuff/Navigation bar/js/dropdown.js",
+		"/C/Users/user/Desktop/Webstuff/Navigation bar/js/collapse.js",
+		"/C/Users/user/Desktop/Webstuff/Navigation bar/terminal.glue",
+		"/C/Users/user/Desktop/nodetest2/package.json",
+		"/C/php/php.ini-development",
+		"/C/Users/user/Desktop/nodetest1/views/helloworld.ejs",
+		"/C/Users/user/Desktop/nodetest1/routes/index.js",
+		"/C/Users/user/Desktop/nodetest1/package.json",
+		"/C/Users/user/Desktop/nodetest1/data/storage.bson",
+		"/C/Users/user/Desktop/nodetest1/node_modules/monk/package.json",
+		"/C/Users/user/Desktop/nodetest1/node_modules/mongodb/package.json",
+		"/C/Users/user/Desktop/nodetest1/node_modules/mongodb/conf.json",
+		"/C/Users/user/Desktop/node app/test_2/views/template/navigation.ejs",
+		"/C/Users/user/Desktop/node app/test_2/views/template/jsdefualts.ejs",
+		"/C/Users/user/Desktop/node app/test_2/views/template/head.ejs",
+		"/C/Users/user/Desktop/node app/test_2/views/template/footer.ejs",
+		"/C/Users/user/Desktop/node app/test_2/routes/index.js",
+		"/C/Users/user/Desktop/node app/test_2/node_modules/ejs/README.md",
+		"/C/Users/user/Desktop/node app/test_2/views/contact.ejs",
+		"/C/Users/user/Documents/Node tuts/Complete_MVC/app/package.json",
+		"/C/Users/user/Documents/Node tuts/Complete_MVC/app/test/config.spec.js",
+		"/C/Users/user/Documents/Node tuts/express_example/index.jade",
+		"/C/Users/user/Documents/Node tuts/express_example/public/stylesheets/chunkfive-fontface.styl",
+		"/C/Users/user/Documents/Node tuts/express_example/node_modules/.bin/jade",
+		"/C/NodeJS Tutorials/show_detail_server.js",
+		"/C/NodeJS Tutorials/users.json",
+		"/C/NodeJS Tutorials/delete_user_server.js",
+		"/C/NodeJS Tutorials/REST_server.js",
+		"/C/NodeJS Tutorials/server_file_upload.js",
+		"/C/NodeJS Tutorials/index.htm",
+		"/C/NodeJS Tutorials/cookie.js",
+		"/C/NodeJS Tutorials/node_modules/body-parser/node_modules/debug/node.js",
+		"/C/NodeJS Tutorials/file_upload.htm",
+		"/C/NodeJS Tutorials/index_post_and_get.htm",
+		"/C/NodeJS Tutorials/server.js",
+		"/C/NodeJS Tutorials/express_server.js",
+		"/C/NodeJS Tutorials/hello_server.js",
+		"/C/NodeJS Tutorials/client.js",
+		"/C/NodeJS Tutorials/stream.js",
+		"/C/NodeJS Tutorials/main_event.js",
+		"/C/NodeJS Tutorials/buffer.js",
+		"/C/NodeJS Tutorials/main_text.js",
+		"/C/NodeJS Tutorials/text.txt",
+		"/C/NodeJS Tutorials/package.json",
+		"/C/NodeJS Tutorials/node_modules/express/package.json",
+		"/C/NodeJS Tutorials/node_modules/express/index.js",
+		"/C/AdroitProject/ZDM/Script/Ulundi WTP/terminal.glue",
+		"/C/Users/user/AppData/Roaming/Sublime Text 2/Packages/Glue/Glue.sublime-settings",
+		"/C/AdroitProject/ZDM/Script/Ulundi WTP/ulundi_terminal_res1_below_20.bas",
+		"/C/xampp/htdocs/RMC/js/nav_active.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"reservoir",
+			"modbus",
+			"collapseOne",
+			"2",
+			"outset",
+			"h1",
+			"form-control",
+			"control",
+			"3",
+			"transition",
+			"smoothScroll",
+			"contact",
+			"*",
+			"Name",
+			"status",
+			"var name;\n      for (name in obj) {\n        return false;\n      }\n      return true;\n    }",
+			"Thanks",
+			"contact",
+			"server key",
+			"'",
+			"quentin@realtelematics.co.za",
+			"error",
+			"xs",
+			"users",
+			"db",
+			"bson",
+			"Release",
+			"div",
+			"views/template/footer.ejs",
+			"/",
+			", page_title);",
+			"%></",
+			"Home",
+			"file_upload",
+			"conncestion",
+			"\\",
+			"active",
+			"li > active",
+			"active",
+			"toggleClass",
+			"<div class=\"bbq-default bbq-item\" style=\"display: none;\">\n			\n		</div>",
+			"	<",
+			">\n",
+			"thumburl:",
+			"name:",
+			"class",
+			"if RUBY_VERSION < '1.9.1'\n      require 'Win32API'\n    else\n      require 'dl'\n      class Win32API\n        DLL = {}",
+			"result",
+			"<script src=\"js/jquery.js\"></script>\n<script>\n		$(document).ready(function() {\n			$(\"#driver\").click(function(event) {\n				$('#stage').load('./js/result.txt');\n			});\n		});\n</script>		",
+			"heightOfRes",
+			"function clear_1(){\n            milliOut.value = \"\";\n            GSMoutput.value = \"\";\n        }",
+			"submit",
+			"=\"\"",
+			"action",
+			"<!-- <svg xmlns=\"http://www.w3.org/2000/svg\"\n    xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n\n    <rect x=\"10\" y=\"10\" height=\"50\" width=\"50\"\n          rx=\"5\" ry=\"5\"\n          style=\"stroke:#006600; fill: #00cc00\"/>\n    <rect x=\"70\" y=\"10\" height=\"50\" width=\"50\"\n          rx=\"10\" ry=\"10\"\n          style=\"stroke:#006600; fill: #00cc00\"/>\n    <rect x=\"130\" y=\"10\" height=\"50\" width=\"50\"\n          rx=\"15\" ry=\"15\"\n          style=\"stroke:#006600; fill: #00cc00\"/>\n</svg> -->",
+			"surname",
+			"Surname",
+			"surname",
+			"name",
+			"=\"'",
+			"surname",
+			"name",
+			"Ajax 2",
+			"required",
+			"hover",
+			"active",
+			"5",
+			"4",
+			"6",
+			"visible-sm",
+			"250",
+			"3",
+			"300",
+			".btn-default",
+			".btn",
+			"input[type=\"file\"]",
+			".btn-default",
+			".btn",
+			"btn",
+			"submit",
+			"post",
+			"textarea",
+			"input",
+			"../",
+			"push",
+			"pull",
+			"pull-left",
+			"pull",
+			"clearfix",
+			"ul",
+			"address",
+			"btn",
+			"233",
+			"175",
+			"102",
+			"form-control",
+			"surname",
+			"Surname",
+			"surname",
+			" <label for=\"name\">Name</label>\n              <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Enter name\">",
+			"h2",
+			"Tax &amp; VAT",
+			"  $(\"#",
+			"All Services",
+			"Contact Us",
+			"strong",
+			"FAQ",
+			".open",
+			"hover",
+			"li",
+			"          <",
+			"breadcrumb",
+			"\"><",
+			"RewriteCond",
+			".')",
+			".navbar-default .navbar-nav",
+			".navbar-default .navbar-nav > li > a",
+			"3",
+			"2",
+			".nav",
+			"navbar-default",
+			"label",
+			"nav",
+			".navbar-default",
+			"navbar-default",
+			"nav",
+			"border",
+			"margin-left"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app.js",
+				"apps/scripts/app.js"
+			],
+			[
+				"ind",
+				"routes/index.js"
+			],
+			[
+				"lay",
+				"views/layout.jade"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"",
+				"package.json"
+			],
+			[
+				"user",
+				"nodetest1/views/userlist.jade"
+			],
+			[
+				"jas",
+				"Navigation bar/css/jasny-bootstrap.css"
+			],
+			[
+				"inde",
+				"views/index.ejs"
+			],
+			[
+				"jad",
+				"express_example/node_modules/.bin/jade"
+			],
+			[
+				"sho",
+				"show_detail_server.js"
+			],
+			[
+				"u",
+				"users.json"
+			],
+			[
+				"node",
+				"node_modules/body-parser/node_modules/debug/node.js"
+			],
+			[
+				"hea",
+				"shared/header.php"
+			],
+			[
+				"boo",
+				"css/bootstrap.css"
+			],
+			[
+				"cus",
+				"css/custom.css"
+			],
+			[
+				"boot",
+				"css/bootstrap.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true
+}
