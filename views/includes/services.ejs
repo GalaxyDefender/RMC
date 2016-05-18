@@ -2,28 +2,11 @@
 	<div class="padding">
 		<a class="smooth"></a>
 		<h1 class="text-center">OUR SERVICES</h1>	
-
-		<div class="row">
-			<div class="col-md-4">
-				<h3>SCADA/Adroit</h3>
-				<img src="images/Adroit_logo.jpg" class="img-circle" width="180" height="180" alt="">
-			</div>
-			<div class="col-md-4">
-				<h3>Telemetry</h3>
-				<img src="images/Adroit_logo.jpg" class="img-circle" width="180" height="180" alt="">
-			</div>	
-			<div class="col-md-4">
-				<h3>Control</h3>
-				<img src="images/Adroit_logo.jpg" class="img-circle" width="180" height="180" alt="">
-			</div>	
-			<div class="col-md-4">
-				<h3>Monitoring</h3>
-				<img src="images/Adroit_logo.jpg" class="img-circle" width="180" height="180" alt="">
-			</div>
-			<div class="col-md-4">
-				<h3>Reports</h3>
-				<img src="images/Adroit_logo.jpg" class="img-circle" width="180" height="180" alt="">
-			</div>
-		</div>
-	</div>
-</div>
+		<div ng-app="" ng-init="serv=['Adroit SCADA', 'Telemetry', 'Control', 'Monitoring', 'Reports']" class="row">
+			<div class="col-md-4" ng-repeat="x in serv">
+				<h3 >{{x}}</h3>
+				<img src="images/{{x}}.jpg" class="img-circle" width="180" height="180" alt="">
+			</div> <!-- .col-md-4 -->
+		</div> <!-- .row -->
+	</div> <!-- .padding -->
+</div> <!-- #services -->
