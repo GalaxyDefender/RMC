@@ -24,11 +24,21 @@ a {
 
 #page2 {
 	background: url(../images/thumb.jpg) no-repeat;
+	/*border: 2px solid black;*/
+	padding-top: 50px;
 }
 
-.h_padding {
-	padding-top: 60px;
+.transbox {
+	background-color: #ffffff;
+	margin: 30px;
+	padding: 10px;
+	opacity: 0.8;
+	border: 1px solid black;
 }
+
+/*.h_padding {
+	padding-top: 60px;
+}*/
 
 .nav {
 	margin-right: 15px;
