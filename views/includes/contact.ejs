@@ -24,6 +24,16 @@
 	<div class="col-md-6">
 		<h2 class="h_padding">Ask a question:</h2>
 		<form action="/" name="contactus", id="contactus", method="post" class="form-horizontal">
+
+			<div class="row">
+				<div class="form-group">
+					<label for="inputName" class="col-md-2 control-label">Company:</label>
+					<div class="col-md-6">
+						<input name="inputCompany" type="text" class="form-control" id="inputCompany" placeholder="Company:  *required", required>
+					</div>
+				</div>
+			</div> <!-- company -->
+
 			<div class="row">
 				<div class="form-group">
 					<label for="inputName" class="col-md-2 control-label">Name:</label>
@@ -31,7 +41,17 @@
 						<input name="inputName" type="text" class="form-control" id="inputName" placeholder="Name:  *required", required>
 					</div>
 				</div>
-			</div>
+			</div> <!-- name -->
+
+			<div class="row">
+				<div class="form-group">
+					<label for="inputSurname" class="col-md-2 control-label">Surname:</label>
+					<div class="col-md-6">
+						<input name="inputSurname" type="text" class="form-control" id="inputSurname" placeholder="Surname:  *required", required>
+					</div>
+				</div>
+			</div> <!-- surname -->			
+
 			<div class="row">
 				<div class="form-group">
 					<label for="inputEmail" class="col-md-2 control-label">Email:</label>
@@ -39,15 +59,17 @@
 						<input name="inputEmail" type="email" class="form-control" id="inputEmail" placeholder="Email:  *required" required>
 					</div>
 				</div>
-			</div>
+			</div> <!-- email -->
+
 			<div class="row">
 				<div class="form-group">
-					<label for="inputTel" class="col-md-2 control-label">Tel:</label>
+					<label for="inputPhone" class="col-md-2 control-label">Phone:</label>
 					<div class="col-md-6">
-						<input name="inputTel" type="tel" class="form-control" id="inputTel" placeholder="Contact Number:">
+						<input name="inputPhone" type="tel" class="form-control" id="inputPhone" placeholder="Phone Number:  *required">
 					</div>
 				</div>
-			</div>
+			</div> <!-- tel -->
+
 			<div class="row">
 				<div class="form-group">
 					<label for="inputSubject" class="col-md-2 control-label">Subject:</label>
@@ -55,7 +77,27 @@
 						<input name="inputSubject" type="subject" class="form-control" id="inputSubject" placeholder="Subject:  *required", required>
 					</div>
 				</div>
-			</div>
+			</div> <!-- subject -->
+
+			<div class="row">
+				<div class="form-group">
+					<label for="inputTel" class="col-md-2 control-label">Region:</label>
+					<div class="col-md-6">
+						<select name="region" class="form-control">
+							<option value="kwazulu-natal">Kwazulu-Natal</option>
+							<option value="gauteng">Gauteng</option>
+							<option value="western_cape">Western Cape</option>
+							<option value="eastern_cape">Eastern Cape</option>
+							<option value="northen_cape">Northen Cape</option>
+							<option value="mupumalanga">Mupumalanga</option>
+							<option value="freestate">Freestate</option>
+							<option value="northwest">Northwest</option>
+							<option value="limpopo">Limpopo</option>
+						</select>
+					</div>
+				</div>
+			</div> <!-- region -->			
+
 			<div class="row">
 				<div class="form-group">
 					<label for="inputText" class="col-md-2 control-label">Message:</label>
@@ -63,14 +105,16 @@
 						<textarea name="inputText" class="form-control" id="inputText" cols="30" rows="10" placeholder="Please type your query here:  *required", required></textarea>
 					</div>
 				</div>
-			</div>
+			</div> <!-- message -->
+
 			<div class="row">
 				<div class="form-group">
 					<div class="col-md-2"></div>
 					<div class="g-recaptcha col-md-6" data-sitekey="6LfoDx8TAAAAAA7NljOjYNY5ezHnYIdff63SgM3o" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin: 0 0;">
 					</div>
 				</div>		
-			</div>
+			</div> <!-- reCAPTCHA -->
+
 				<div class="col-md-2"></div>
 				<button type="submit" class="btn btn-default">Submit</button>
 		</form>
