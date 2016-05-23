@@ -59,7 +59,7 @@ app.post('/', function(req,res){
     from: 'qgerard.gerard@gmail.com',
     to: 'quentin@realtelematics.co.za',
     subject: 'Website contact - ' + req.body.inputSubject,
-    html: '<h1>' + req.body.inputSubject + '</h1><p>' + req.body.inputText + '</p><br><p>Name: ' + req.body.inputName + '</p><p>Email address: ' + req.body.inputEmail + '</p><p>Contact number: ' + req.body.inputTel + '</p>' 
+    html: '<h1>' + req.body.inputCompany + '</h1><p>' + req.body.inputText + '</p><br><p>Name: ' + req.body.inputName + ' ' + req.body.inputSurname + '</p><p>Email address: ' + req.body.inputEmail + '</p><p>Contact number: ' + req.body.inputPhone + '</p><p>Region: ' + req.body.inputRegion + '</p>' 
   };
 
   // SMTP transporter

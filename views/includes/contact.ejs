@@ -81,20 +81,21 @@
 
 			<div class="row">
 				<div class="form-group">
-					<label for="inputTel" class="col-md-2 control-label">Region:</label>
+					<label for="inputRegion" class="col-md-2 control-label">Region:</label>
 					<div class="col-md-6" ng-init="region=[
-													{option:'Kwazulu-Natal', value:'kwazulu-natal'},
-													{option:'Gauteng', value:'gauteng'},
-													{option:'Western Cape', value:'western_cape'},
-													{option:'Eastern Cape', value:'eastern_cape'},
-													{option:'Northen Cape', value:'northen_cape'},
-													{option:'Mupumalanga', value:'mupumalanga'},
-													{option:'Freestate', value:'freestate'},
-													{option:'Northwest', value:'northwest'},
-													{option:'Limpopo', value:'limpopo'},
+													{option:'Please Select Region', value:''},
+													{option:'Kwazulu-Natal', value:'Kwazulu-Natal'},
+													{option:'Gauteng', value:'Gauteng'},
+													{option:'Western Cape', value:'Western Cape'},
+													{option:'Eastern Cape', value:'Eastern Cape'},
+													{option:'Northen Cape', value:'Northen Cape'},
+													{option:'Mupumalanga', value:'Mupumalanga'},
+													{option:'Freestate', value:'Freestate'},
+													{option:'Northwest', value:'Northwest'},
+													{option:'Limpopo', value:'Limpopo'},
 													]">
-						<select name="region" class="form-control">
-							<option ng-repeat="y in region" value="{{y.value}}">{{y.option}}</option>}
+						<select id="inputRegion" name="inputRegion" class="form-control">
+							<option id="inputRegion" name="inputRegion" ng-repeat="y in region" value="{{y.value}}">{{y.option}}</option>}
 						</select>
 					</div>
 				</div>
