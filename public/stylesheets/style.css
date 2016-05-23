@@ -1,11 +1,18 @@
 body {
-  padding: 50px;
   position: relative;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
 }
 
 a {
   color: #000000;
+}
+
+p {
+	font-size: 18px;
+}
+
+address {
+	font-size: 18px;	
 }
 
 #home, #about, #services, #contact {
@@ -16,7 +23,7 @@ a {
 
 /*@media (max-width: 500px) { 
 	#home, #about, #services, #contact {
-	height: auto;
+	width: 100%;
 	margin-bottom: 10px;
 	padding-top: 50px;
 	} 
