@@ -4,12 +4,6 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-.container {
-	/*background-color: #ACA8A8;*/
-	border-right: 8px solid #A6A2A2;
-	border-left: 8px solid #A6A2A2;
-}
-
 a {
   color: #000000;
 }
@@ -20,17 +14,28 @@ a {
 	padding-top: 50px;
 }
 
+/*@media (max-width: 500px) { 
+	#home, #about, #services, #contact {
+	height: auto;
+	margin-bottom: 10px;
+	padding-top: 50px;
+	} 
+}*/
+
 #home {
-	background: url(../images/Binary-_iS_.jpg) no-repeat;
+	background: url(../images/Binary-_iS_.jpg);
+	background-repeat: no-repeat;
 	
 }
 
 #about {
-	background: url(../images/thumb.jpg) no-repeat;
+	background: url(../images/thumb.jpg);
+	background-repeat: no-repeat;
 }
 
 #services {
-	background: url(../images/services.jpg) no-repeat;
+	background: url(../images/services.jpg);
+	background-repeat: no-repeat;
 }
 
 .padding {
