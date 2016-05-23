@@ -21,14 +21,6 @@ address {
 	padding-top: 50px;
 }
 
-/*@media (max-width: 500px) { 
-	#home, #about, #services, #contact {
-	width: 100%;
-	margin-bottom: 10px;
-	padding-top: 50px;
-	} 
-}*/
-
 #home {
 	background: url(../images/Binary-_iS_.jpg);
 	background-repeat: no-repeat;
@@ -45,6 +37,18 @@ address {
 	background-repeat: no-repeat;
 }
 
+#services p {
+	color: #ffffff; 	
+}
+
+#services h1 {
+	color: #ffffff; 	
+}
+
+#services h2 {
+	color: #ffffff; 	
+}
+
 .padding {
 	padding: 10px;
 	margin: 30px;
@@ -54,7 +58,7 @@ address {
 	display: inline; 
 }
 
-.transbox {
+#home_transbox {
 	background-color: #ffffff;
 	margin: 30px;
 	padding: 10px;
@@ -63,9 +67,22 @@ address {
 	color: #000000;
 }
 
-/*.h_padding {
-	padding-top: 60px;
-}*/
+#about_transbox {
+	background-color: #9FCAEB;
+	margin: 30px;
+	padding: 10px;
+	opacity: 0.8;
+	border: 1px solid black;
+	color: #000000;
+}
+
+#about_back {
+	position: relative;
+	padding-top: 5px;
+	height: 50px;
+	background-color: #295575;
+	color: #ffffff;
+}
 
 .nav {
 	margin-right: 15px;

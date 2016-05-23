@@ -1,16 +1,16 @@
 <div id="services">
-	<div class="padding">
+	<!-- <div class="padding"> -->
 		<a class="smooth"></a>
 		<h1 class="text-center">OUR SERVICES</h1>	
-		<div class="row" ng-init="serv=['Adroit SCADA', 
-										'Telemetry', 
-										'Control', 
-										'Monitoring', 
-										'Reports']">
+		<div class="row" ng-init="serv=[{title:'Adroit SCADA', desc:'Monitoring sites on your desktop.'},
+										{title:'Telemetry', desc:'Control, monitor equipment.'},  
+										{title:'Reports', desc:'Text goes here'}]">
 			<div class="col-md-4 text-center" ng-repeat="x in serv">
-				<h3 >{{x}}</h3>
-				<img src="images/{{x}}.jpg" class="img-circle img-responsive center-block" alt="">
+				<h2>{{x.title}}</h2>
+				<img src="images/{{x.title}}.jpg" class="img-circle img-responsive center-block" alt="">
+				<br>
+				<p>{{x.desc}}</p>
 			</div> <!-- .col-md-4 -->
 		</div> <!-- .row -->
-	</div> <!-- .padding -->
+	<!-- </div> --> <!-- .padding -->
 </div> <!-- #services -->

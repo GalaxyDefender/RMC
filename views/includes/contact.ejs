@@ -1,93 +1,95 @@
 <div id="contact">
-	<a class="smooth"></a>
-	<div class="col-md-6">
-		<h1 class="h_padding">CONTACT US</h1>
-		<h2>Address:</h2>
-		<address>
-			2 Wareing Road <br>
-			Waring Park <br>
-			Pinetown <br>
-			Kwa-Zulu Natal
-		</address>
+	<!-- <div class="padding"> -->
+		<a class="smooth"></a>
+		<h1 class="text-center">CONTACT US</h1>
+		<div class="col-md-6">
+			<h2>Address:</h2>
+			<address>
+				2 Wareing Road <br>
+				Waring Park <br>
+				Pinetown <br>
+				Kwa-Zulu Natal
+			</address>
 
-		<h2>Contact Details:</h2>
-		<address>
-			Phone: 031 566 6448 <br>
-			Email: quentin@realtelematics.co.za<br>
-		</address>
+			<h2>Contact Details:</h2>
+			<address>
+				Phone: 031 566 6448 <br>
+				Email: quentin@realtelematics.co.za<br>
+			</address>
 
-		<div id="map" class="embed-responsive embed-responsive-16by9 hidden-xs embed-style">
-			<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3461.435978136706!2d30.856916315624716!3d-29.822834981963574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef6fe5c8da45833%3A0x4ecc3ad1f08cc17d!2s2+Wareing+Rd%2C+Pinetown!5e0!3m2!1sen!2sza!4v1458064031014"></iframe>
-		</div>
-	</div>
-
-	<div class="col-md-6">
-		<h2 class="h_padding">Ask a question:</h2>
-		<form 	action="/" 
-				name="contactus" 
-				id="contactus" 
-				method="post" 
-				class="form-horizontal" 
-				ng-init="info=[
-								{labelName:'Company:', inputName:'inputCompany', type:'text'},
-								{labelName:'Name:', inputName:'inputName', type:'text'},
-								{labelName:'Surname:', inputName:'inputSurname', type:'text'},
-								{labelName:'Email:', inputName:'inputEmail', type:'email'},
-								{labelName:'Phone:', inputName:'inputPhone', type:'tel'},
-								{labelName:'Subject:', inputName:'inputSubject', type:'text'},
-								]"
-			>
-
-			<div class="row" ng-repeat="z in info">
-				<div class="form-group">
-					<label for="{{z.inputName}}" class="col-md-2 control-label">{{z.labelName}}</label>
-					<div class="col-md-6">
-						<input name="{{z.inputName}}" type="{{z.type}}" class="form-control" id="{{z.inputName}}" placeholder="*required", required>
-					</div>
-				</div>
+			<div id="map" class="embed-responsive embed-responsive-16by9 hidden-xs embed-style">
+				<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3461.435978136706!2d30.856916315624716!3d-29.822834981963574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef6fe5c8da45833%3A0x4ecc3ad1f08cc17d!2s2+Wareing+Rd%2C+Pinetown!5e0!3m2!1sen!2sza!4v1458064031014"></iframe>
 			</div>
+		</div>
 
-			<div class="row">
-				<div class="form-group">
-					<label for="inputRegion" class="col-md-2 control-label">Region:</label>
-					<div class="col-md-6" ng-init="region=[
-													{option:'Please Select Region', value:''},
-													{option:'Kwazulu-Natal', value:'Kwazulu-Natal'},
-													{option:'Gauteng', value:'Gauteng'},
-													{option:'Western Cape', value:'Western Cape'},
-													{option:'Eastern Cape', value:'Eastern Cape'},
-													{option:'Northen Cape', value:'Northen Cape'},
-													{option:'Mupumalanga', value:'Mupumalanga'},
-													{option:'Freestate', value:'Freestate'},
-													{option:'Northwest', value:'Northwest'},
-													{option:'Limpopo', value:'Limpopo'},
-													]">
-						<select id="inputRegion" name="inputRegion" class="form-control">
-							<option id="inputRegion" name="inputRegion" ng-repeat="y in region" value="{{y.value}}">{{y.option}}</option>}
-						</select>
+		<div class="col-md-6">
+			<h2 class="h_padding">Ask a question:</h2>
+			<form 	action="/" 
+					name="contactus" 
+					id="contactus" 
+					method="post" 
+					class="form-horizontal" 
+					ng-init="info=[
+									{labelName:'Company:', inputName:'inputCompany', type:'text'},
+									{labelName:'Name:', inputName:'inputName', type:'text'},
+									{labelName:'Surname:', inputName:'inputSurname', type:'text'},
+									{labelName:'Email:', inputName:'inputEmail', type:'email'},
+									{labelName:'Phone:', inputName:'inputPhone', type:'tel'},
+									{labelName:'Subject:', inputName:'inputSubject', type:'text'}
+									]"
+				>
+
+				<div class="row" ng-repeat="z in info">
+					<div class="form-group">
+						<label for="{{z.inputName}}" class="col-md-2 control-label">{{z.labelName}}</label>
+						<div class="col-md-6">
+							<input name="{{z.inputName}}" type="{{z.type}}" class="form-control" id="{{z.inputName}}" placeholder="*required", required>
+						</div>
 					</div>
 				</div>
-			</div> <!-- region -->			
 
-			<div class="row">
-				<div class="form-group">
-					<label for="inputText" class="col-md-2 control-label">Message:</label>
-					<div class="col-md-6">
-						<textarea name="inputText" class="form-control" id="inputText" cols="30" rows="10" placeholder="Please type your query here:  *required", required></textarea>
+				<div class="row">
+					<div class="form-group">
+						<label for="inputRegion" class="col-md-2 control-label">Region:</label>
+						<div class="col-md-6" ng-init="region=[
+														{option:'Please Select Region', value:''},
+														{option:'Kwazulu-Natal', value:'Kwazulu-Natal'},
+														{option:'Gauteng', value:'Gauteng'},
+														{option:'Western Cape', value:'Western Cape'},
+														{option:'Eastern Cape', value:'Eastern Cape'},
+														{option:'Northen Cape', value:'Northen Cape'},
+														{option:'Mupumalanga', value:'Mupumalanga'},
+														{option:'Freestate', value:'Freestate'},
+														{option:'Northwest', value:'Northwest'},
+														{option:'Limpopo', value:'Limpopo'},
+														]">
+							<select id="inputRegion" name="inputRegion" class="form-control">
+								<option id="inputRegion" name="inputRegion" ng-repeat="y in region" value="{{y.value}}">{{y.option}}</option>}
+							</select>
+						</div>
 					</div>
-				</div>
-			</div> <!-- message -->
+				</div> <!-- region -->			
 
-			<div class="row">
-				<div class="form-group">
+				<div class="row">
+					<div class="form-group">
+						<label for="inputText" class="col-md-2 control-label">Message:</label>
+						<div class="col-md-6">
+							<textarea name="inputText" class="form-control" id="inputText" cols="30" rows="10" placeholder="Please type your query here:  *required", required></textarea>
+						</div>
+					</div>
+				</div> <!-- message -->
+
+				<div class="row">
+					<div class="form-group">
+						<div class="col-md-2"></div>
+						<div class="g-recaptcha col-md-6" data-sitekey="6LfoDx8TAAAAAA7NljOjYNY5ezHnYIdff63SgM3o" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin: 0 0;">
+						</div>
+					</div>		
+				</div> <!-- reCAPTCHA -->
+
 					<div class="col-md-2"></div>
-					<div class="g-recaptcha col-md-6" data-sitekey="6LfoDx8TAAAAAA7NljOjYNY5ezHnYIdff63SgM3o" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin: 0 0;">
-					</div>
-				</div>		
-			</div> <!-- reCAPTCHA -->
-
-				<div class="col-md-2"></div>
-				<button type="submit" class="btn btn-default">Submit</button>
-		</form>
-	</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</div>
+	<!-- </div> -->
 </div>
