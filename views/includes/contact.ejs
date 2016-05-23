@@ -23,61 +23,29 @@
 
 	<div class="col-md-6">
 		<h2 class="h_padding">Ask a question:</h2>
-		<form action="/" name="contactus", id="contactus", method="post" class="form-horizontal">
+		<form 	action="/" 
+				name="contactus" 
+				id="contactus" 
+				method="post" 
+				class="form-horizontal" 
+				ng-init="info=[
+								{labelName:'Company:', inputName:'inputCompany', type:'text'},
+								{labelName:'Name:', inputName:'inputName', type:'text'},
+								{labelName:'Surname:', inputName:'inputSurname', type:'text'},
+								{labelName:'Email:', inputName:'inputEmail', type:'email'},
+								{labelName:'Phone:', inputName:'inputPhone', type:'tel'},
+								{labelName:'Subject:', inputName:'inputSubject', type:'text'},
+								]"
+			>
 
-			<div class="row">
+			<div class="row" ng-repeat="z in info">
 				<div class="form-group">
-					<label for="inputName" class="col-md-2 control-label">Company:</label>
+					<label for="{{z.inputName}}" class="col-md-2 control-label">{{z.labelName}}</label>
 					<div class="col-md-6">
-						<input name="inputCompany" type="text" class="form-control" id="inputCompany" placeholder="Company:  *required", required>
+						<input name="{{z.inputName}}" type="{{z.type}}" class="form-control" id="{{z.inputName}}" placeholder="*required", required>
 					</div>
 				</div>
-			</div> <!-- company -->
-
-			<div class="row">
-				<div class="form-group">
-					<label for="inputName" class="col-md-2 control-label">Name:</label>
-					<div class="col-md-6">
-						<input name="inputName" type="text" class="form-control" id="inputName" placeholder="Name:  *required", required>
-					</div>
-				</div>
-			</div> <!-- name -->
-
-			<div class="row">
-				<div class="form-group">
-					<label for="inputSurname" class="col-md-2 control-label">Surname:</label>
-					<div class="col-md-6">
-						<input name="inputSurname" type="text" class="form-control" id="inputSurname" placeholder="Surname:  *required", required>
-					</div>
-				</div>
-			</div> <!-- surname -->			
-
-			<div class="row">
-				<div class="form-group">
-					<label for="inputEmail" class="col-md-2 control-label">Email:</label>
-					<div class="col-md-6">
-						<input name="inputEmail" type="email" class="form-control" id="inputEmail" placeholder="Email:  *required" required>
-					</div>
-				</div>
-			</div> <!-- email -->
-
-			<div class="row">
-				<div class="form-group">
-					<label for="inputPhone" class="col-md-2 control-label">Phone:</label>
-					<div class="col-md-6">
-						<input name="inputPhone" type="tel" class="form-control" id="inputPhone" placeholder="Phone Number:  *required">
-					</div>
-				</div>
-			</div> <!-- tel -->
-
-			<div class="row">
-				<div class="form-group">
-					<label for="inputSubject" class="col-md-2 control-label">Subject:</label>
-					<div class="col-md-6">
-						<input name="inputSubject" type="subject" class="form-control" id="inputSubject" placeholder="Subject:  *required", required>
-					</div>
-				</div>
-			</div> <!-- subject -->
+			</div>
 
 			<div class="row">
 				<div class="form-group">
