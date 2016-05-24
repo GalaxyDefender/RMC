@@ -22,17 +22,22 @@ address {
 }
 
 #home {
-	background: url(../images/Binary-_iS_.jpg);
+	background: url(../images/RMC_background1.jpg);
 	background-repeat: no-repeat;	
 }
 
+#home img {
+	position: center;
+	margin: auto;
+}
+
 #home_transbox {
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 	margin: 30px;
 	padding: 10px;
-	opacity: 0.8;
-	border: 1px solid black;
-	color: #000000;
+	/*opacity: 0.8;*/
+	/*border: 1px solid black;*/
+	/*color: #000000;*/
 }
 
 #about {
