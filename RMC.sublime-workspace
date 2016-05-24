@@ -4,20 +4,48 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"n",
+				"no-repeat"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
 				"borr",
 				"border-right"
 			],
 			[
 				"boder",
 				"border"
-			],
-			[
-				"colo",
-				"background-color"
-			],
-			[
-				"mar",
-				"margin-right"
 			],
 			[
 				"script",
@@ -46,10 +74,6 @@
 			[
 				"style",
 				"style	<style>"
-			],
-			[
-				"padd",
-				"padding-bottom"
 			],
 			[
 				"a",
@@ -264,20 +288,12 @@
 				"border-top"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"backi",
 				"background-image"
 			],
 			[
 				"list",
 				"list-style"
-			],
-			[
-				"padding",
-				"padding-right"
 			],
 			[
 				"str_re",
@@ -498,41 +514,180 @@
 			[
 				"consol",
 				"console	console.log()"
-			],
-			[
-				"not",
-				"notIndex"
-			],
-			[
-				"no",
-				"notIndex"
-			],
-			[
-				"bad",
-				"badIndex"
-			],
-			[
-				"ind",
-				"indexOf"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "public/stylesheets/style.css",
+			"settings":
+			{
+				"buffer_size": 1424,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 1102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/includes/home.ejs",
+			"settings":
+			{
+				"buffer_size": 244,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/includes/about.ejs",
+			"settings":
+			{
+				"buffer_size": 234,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/includes/services.ejs",
+			"settings":
+			{
+				"buffer_size": 685,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div id=\"contact\">\n	<!-- <div class=\"padding\"> -->\n		<a class=\"smooth\"></a>\n		<h1 class=\"text-center\" >CONTACT US</h1>\n		<div class=\"col-md-6\">\n			<h2>Address:</h2>\n			<address>\n				2 Wareing Road <br>\n				Waring Park <br>\n				Pinetown <br>\n				Kwa-Zulu Natal\n			</address>\n\n			<h2>Contact Details:</h2>\n			<address>\n				Phone: 031 566 6448 <br>\n				Email: quentin@realtelematics.co.za<br>\n			</address>\n\n			<div id=\"map\" class=\"embed-responsive embed-responsive-16by9 hidden-xs embed-style\">\n				<iframe class=\"embed-responsive-item\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3461.435978136706!2d30.856916315624716!3d-29.822834981963574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef6fe5c8da45833%3A0x4ecc3ad1f08cc17d!2s2+Wareing+Rd%2C+Pinetown!5e0!3m2!1sen!2sza!4v1458064031014\"></iframe>\n			</div>\n		</div>\n\n		<div class=\"col-md-6\">\n			<h2 class=\"h_padding\">Ask a question:</h2>\n			<form 	action=\"/\" \n					name=\"contactus\" \n					id=\"contactus\" \n					method=\"post\" \n					class=\"form-horizontal\" \n					ng-init=\"info=[\n									{labelName:'Company:', inputName:'inputCompany', type:'text'},\n									{labelName:'Name:', inputName:'inputName', type:'text'},\n									{labelName:'Surname:', inputName:'inputSurname', type:'text'},\n									{labelName:'Email:', inputName:'inputEmail', type:'email'},\n									{labelName:'Phone:', inputName:'inputPhone', type:'tel'},\n									{labelName:'Subject:', inputName:'inputSubject', type:'text'}\n									]\"\n				>\n\n				<div class=\"row\" ng-repeat=\"z in info\">\n					<div class=\"form-group\">\n						<label for=\"{{z.inputName}}\" class=\"col-md-2 control-label\">{{z.labelName}}</label>\n						<div class=\"col-md-6\">\n							<input name=\"{{z.inputName}}\" type=\"{{z.type}}\" class=\"form-control\" id=\"{{z.inputName}}\" placeholder=\"*required\", required>\n						</div>\n					</div>\n				</div>\n\n				<div class=\"row\">\n					<div class=\"form-group\">\n						<label for=\"inputRegion\" class=\"col-md-2 control-label\">Region:</label>\n						<div class=\"col-md-6\" ng-init=\"region=[\n														{option:'Please Select Region', value:''},\n														{option:'Kwazulu-Natal', value:'Kwazulu-Natal'},\n														{option:'Gauteng', value:'Gauteng'},\n														{option:'Western Cape', value:'Western Cape'},\n														{option:'Eastern Cape', value:'Eastern Cape'},\n														{option:'Northen Cape', value:'Northen Cape'},\n														{option:'Mupumalanga', value:'Mupumalanga'},\n														{option:'Freestate', value:'Freestate'},\n														{option:'Northwest', value:'Northwest'},\n														{option:'Limpopo', value:'Limpopo'},\n														]\">\n							<select id=\"inputRegion\" name=\"inputRegion\" class=\"form-control\">\n								<option id=\"inputRegion\" name=\"inputRegion\" ng-repeat=\"y in region\" value=\"{{y.value}}\">{{y.option}}</option>}\n							</select>\n						</div>\n					</div>\n				</div> <!-- region -->			\n\n				<div class=\"row\">\n					<div class=\"form-group\">\n						<label for=\"inputText\" class=\"col-md-2 control-label\">Message:</label>\n						<div class=\"col-md-6\">\n							<textarea name=\"inputText\" class=\"form-control\" id=\"inputText\" cols=\"30\" rows=\"10\" placeholder=\"Please type your query here:  *required\", required></textarea>\n						</div>\n					</div>\n				</div> <!-- message -->\n\n				<div class=\"row\">\n					<div class=\"form-group\">\n						<div class=\"col-md-2\"></div>\n						<div class=\"g-recaptcha col-md-6\" data-sitekey=\"6LfoDx8TAAAAAA7NljOjYNY5ezHnYIdff63SgM3o\" style=\"transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin: 0 0;\">\n						</div>\n					</div>		\n				</div> <!-- reCAPTCHA -->\n\n					<div class=\"col-md-2\"></div>\n					<button type=\"submit\" class=\"btn btn-default\">Submit</button>\n			</form>\n		</div>\n	<!-- </div> -->\n</div>",
+			"file": "views/includes/contact.ejs",
+			"file_size": 3751,
+			"file_write_time": 131084809276230999,
+			"settings":
+			{
+				"buffer_size": 3752,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/includes/navigation.ejs",
+			"settings":
+			{
+				"buffer_size": 1030,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 219.0,
 		"selected_items":
 		[
 			[
-				"colo",
-				"Color Picker"
+				"git comm",
+				"Git: Quick Commit"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git ",
+				"Git: Quick Commit"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git co",
+				"Git: Quick Commit"
+			],
+			[
+				"git rese",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"commit",
+				"Git: Quick Commit"
+			],
+			[
+				"git har",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git staus",
+				"Git: Status"
+			],
+			[
+				"git lo",
+				"Git: Log All"
+			],
+			[
+				"git reser",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"angular",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"angu",
+				"Snippet: Google AJAX Libraries: AngularJS"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"co",
+				"Coffee: Run Script"
+			],
+			[
+				"colo",
+				"Color Picker"
 			],
 			[
 				"ejs",
@@ -541,14 +696,6 @@
 			[
 				"java",
 				"Set Syntax: JavaScript"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"bs3-ht",
@@ -719,10 +866,6 @@
 				"Set Syntax: Java Properties"
 			],
 			[
-				"co",
-				"Coffee: Run Script"
-			],
-			[
 				"Snippet: ",
 				"Snippet: Function"
 			],
@@ -784,6 +927,16 @@
 	},
 	"file_history":
 	[
+		"/C/Users/user/Desktop/Webstuff/RMC/app.js",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/index.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/contact.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/services.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/public/stylesheets/style.css",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/home.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/about.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/navigation.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/work.ejs",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/partials/js.ejs",
 		"/C/Users/user/Documents/GitHub/rtu/script/io.js",
 		"/C/Users/user/Documents/GitHub/rtu/package.json",
 		"/C/Users/user/Documents/GitHub/rtu/README.md",
@@ -795,22 +948,13 @@
 		"/C/Users/user/Documents/GitHub/rtu/apps/default.html",
 		"/C/Users/user/Desktop/Webstuff/RMC/routes/index.js",
 		"/C/Users/user/Desktop/Webstuff/RMC/views/sent.ejs",
-		"/C/Users/user/Desktop/Webstuff/RMC/views/index.ejs",
-		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/work.ejs",
-		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/navigation.ejs",
-		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/contact.ejs",
-		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/home.ejs",
-		"/C/Users/user/Desktop/Webstuff/RMC/public/stylesheets/style.css",
 		"/C/Users/user/Desktop/rtu-dev/app/app.module.js",
 		"/C/Users/user/Desktop/rtu-dev/script/tcpclient.js",
 		"/C/Users/user/Desktop/rtu-dev/app/app.routes.js",
 		"/C/Users/user/Desktop/rtu-dev/app/services/services.js",
-		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/partials/js.ejs",
 		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/partials/css.ejs",
 		"/C/Users/user/Desktop/Webstuff/RMC/public/js/custom.js",
-		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/about.ejs",
 		"/C/Users/user/Desktop/Webstuff/RMC/package.json",
-		"/C/Users/user/Desktop/Webstuff/RMC/app.js",
 		"/C/Users/user/Desktop/Webstuff/Email_App/views/contact.jade",
 		"/C/Users/user/Desktop/Webstuff/Email_App/routes/index.js",
 		"/C/Users/user/Desktop/Webstuff/Email_App/package.json",
@@ -910,8 +1054,7 @@
 		"/C/NodeJS Tutorials/node_modules/express/index.js",
 		"/C/AdroitProject/ZDM/Script/Ulundi WTP/terminal.glue",
 		"/C/Users/user/AppData/Roaming/Sublime Text 2/Packages/Glue/Glue.sublime-settings",
-		"/C/AdroitProject/ZDM/Script/Ulundi WTP/ulundi_terminal_res1_below_20.bas",
-		"/C/xampp/htdocs/RMC/js/nav_active.js"
+		"/C/AdroitProject/ZDM/Script/Ulundi WTP/ulundi_terminal_res1_below_20.bas"
 	],
 	"find":
 	{
@@ -929,6 +1072,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#services p, h1, h2 {\n	color: #ffffff; 	\n}",
+			"h3",
+			"								{",
+			"<option value=\"\"></option>",
+			"inputTel",
+			"Name",
+			"name",
+			"Name",
+			"inputName",
+			"page-scroll",
+			"x",
+			"<h3>SCADA/Adroit</h3>\n		<img src=\"images/Adroit_logo.jpg\" class=\"img-circle\" width=\"180\" height=\"180\" alt=\"\">",
+			"		<h3>SCADA/Adroit</h3>\n		<img src=\"images/Adroit_logo.jpg\" class=\"img-circle\" width=\"180\" height=\"180\" alt=\"\">",
+			"services",
+			"			<",
+			"work",
+			"* ",
+			"6",
 			"reservoir",
 			"modbus",
 			"collapseOne",
@@ -1038,25 +1199,7 @@
 			"FAQ",
 			".open",
 			"hover",
-			"li",
-			"          <",
-			"breadcrumb",
-			"\"><",
-			"RewriteCond",
-			".')",
-			".navbar-default .navbar-nav",
-			".navbar-default .navbar-nav > li > a",
-			"3",
-			"2",
-			".nav",
-			"navbar-default",
-			"label",
-			"nav",
-			".navbar-default",
-			"navbar-default",
-			"nav",
-			"border",
-			"margin-left"
+			"li"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1076,8 +1219,196 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "public/stylesheets/style.css",
+					"settings":
+					{
+						"buffer_size": 1424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								743,
+								743
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/index.ejs",
+					"settings":
+					{
+						"buffer_size": 1102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1037,
+								1037
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/includes/home.ejs",
+					"settings":
+					{
+						"buffer_size": 244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/includes/about.ejs",
+					"settings":
+					{
+						"buffer_size": 234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/includes/services.ejs",
+					"settings":
+					{
+						"buffer_size": 685,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/includes/contact.ejs",
+					"settings":
+					{
+						"buffer_size": 3752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/includes/navigation.ejs",
+					"settings":
+					{
+						"buffer_size": 1030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1116,6 +1447,10 @@
 	{
 		"height": 28.0
 	},
+	"output.git":
+	{
+		"height": 118.0
+	},
 	"output.xdebug":
 	{
 		"height": 0.0
@@ -1131,12 +1466,40 @@
 		"selected_items":
 		[
 			[
-				"app.js",
-				"apps/scripts/app.js"
+				"nav",
+				"views/includes/navigation.ejs"
 			],
 			[
 				"ind",
-				"routes/index.js"
+				"views/index.ejs"
+			],
+			[
+				"home",
+				"views/includes/home.ejs"
+			],
+			[
+				"conta",
+				"views/includes/contact.ejs"
+			],
+			[
+				"abou",
+				"views/includes/about.ejs"
+			],
+			[
+				"styl",
+				"public/stylesheets/style.css"
+			],
+			[
+				"ser",
+				"views/includes/services.ejs"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"app.js",
+				"apps/scripts/app.js"
 			],
 			[
 				"lay",
@@ -1199,16 +1562,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 203.0,
 	"status_bar_visible": true
 }
