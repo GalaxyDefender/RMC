@@ -21,10 +21,11 @@ address {
 	padding-top: 50px;
 }
 
-/*#home {
-	background: url(../images/RMC_background1.jpg);
-	background-repeat: no-repeat;	
-}*/
+@media (max-width: 992px) and (min-width: 768px){
+	#home, #about, #services, #contact {
+		height: 1024px;
+	}
+} 
 
 #home img {
 	/*position: center;*/
@@ -49,29 +50,54 @@ address {
 	/*color: #000000;*/
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 1200px) {
 	#home {
-		/*background-image: url(../images/RMC_background4.jpg) no-repeat center fixed;*/
-		/*background-size: cover;*/
-		background: red; /* For browsers that do not support gradients */
-	    background: -webkit-linear-gradient(#295575, #53AAEB, #9FCAEB); /* For Safari 5.1 to 6.0 */
-	    background: -o-linear-gradient(#295575, #53AAEB, #9FCAEB); /* For Opera 11.1 to 12.0 */
-	    background: -moz-linear-gradient(#295575, #53AAEB, #9FCAEB); /* For Firefox 3.6 to 15 */
-	    background: linear-gradient(#295575, #53AAEB, #9FCAEB); /* Standard syntax */
+		background-image: url(../images/RMC_background1.jpg);
+		background-repeat: no-repeat;
 	}
 } 
 
+@media (max-width: 1200px) and (min-width: 992px){
+	#home {
+		background-image: url(../images/RMC_background2.jpg);
+		background-repeat: no-repeat;
+	}
+} 
 
-/*#grad {
-	background: -moz-linear-gradient(red, yellow);
-	background: linear-gradient(red, yellow);
-	background-color: red;
+@media (max-width: 992px) and (min-width: 768px){
+	#home {
+		background-image: url(../images/RMC_background4_x1000.jpg);
+		background-repeat: no-repeat;
+	}
+} 
+
+@media (max-width: 768px) {
+	#home {
+
+		background-image: url(../images/RMC_background4.jpg);
+		background-repeat: no-repeat;	
+	}
 }
-*/
+
+@media (max-width: 460px) {
+	#home {
+		background-image: url(../images/RMC_background5.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}
+
 #about {
 	background: url(../images/thumb.jpg);
 	background-repeat: no-repeat;
 }
+
+@media (max-width: 992px) and (min-width: 768px){
+	#about {
+		background-image: url(../images/thumb_x1000.jpg);
+		background-repeat: no-repeat;
+	}
+} 
 
 #about_transbox {
 	background-color: #9FCAEB;
