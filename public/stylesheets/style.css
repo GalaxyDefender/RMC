@@ -34,6 +34,10 @@ address {
 	margin-bottom: 10px;
 }
 
+#home_padding {
+	padding-top: 30%;
+}
+
 #home #xs-background {
 	height: auto;
 	width: 75%;
@@ -69,6 +73,9 @@ address {
 		background-image: url(../images/RMC_background4_x1000.jpg);
 		background-repeat: no-repeat;
 	}
+		#home_padding {
+		padding-top: 50%;
+	}
 } 
 
 @media (max-width: 768px) {
@@ -76,6 +83,9 @@ address {
 
 		background-image: url(../images/RMC_background4.jpg);
 		background-repeat: no-repeat;	
+	}
+		#home_padding {
+		padding-top: 70%;
 	}
 }
 
@@ -100,10 +110,10 @@ address {
 } 
 
 #about_transbox {
-	background-color: #9FCAEB;
+	background-color: #ffffff;
 	margin: 30px;
 	padding: 10px;
-	opacity: 0.8;
+	opacity: 0.9;
 	border: 1px solid black;
 	color: #000000;
 }
