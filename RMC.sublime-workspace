@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background-image"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
 				"padd",
-				"padding-top"
+				"padding"
 			],
 			[
 				"font",
@@ -18,14 +30,6 @@
 			[
 				"backg",
 				"background-size"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"mar",
-				"margin-bottom"
 			],
 			[
 				"colo",
@@ -510,10 +514,6 @@
 			[
 				"le",
 				"length-1"
-			],
-			[
-				"consol",
-				"console	console.log()"
 			]
 		]
 	},
@@ -523,31 +523,23 @@
 			"file": "public/stylesheets/style.css",
 			"settings":
 			{
-				"buffer_size": 1424,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/index.ejs",
-			"settings":
-			{
-				"buffer_size": 1102,
-				"line_ending": "Unix"
+				"buffer_size": 2949,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "views/includes/home.ejs",
 			"settings":
 			{
-				"buffer_size": 244,
-				"line_ending": "Unix"
+				"buffer_size": 589,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "views/includes/about.ejs",
 			"settings":
 			{
-				"buffer_size": 234,
+				"buffer_size": 1011,
 				"line_ending": "Unix"
 			}
 		},
@@ -555,18 +547,15 @@
 			"file": "views/includes/services.ejs",
 			"settings":
 			{
-				"buffer_size": 685,
+				"buffer_size": 778,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<div id=\"contact\">\n	<!-- <div class=\"padding\"> -->\n		<a class=\"smooth\"></a>\n		<h1 class=\"text-center\" >CONTACT US</h1>\n		<div class=\"col-md-6\">\n			<h2>Address:</h2>\n			<address>\n				2 Wareing Road <br>\n				Waring Park <br>\n				Pinetown <br>\n				Kwa-Zulu Natal\n			</address>\n\n			<h2>Contact Details:</h2>\n			<address>\n				Phone: 031 566 6448 <br>\n				Email: quentin@realtelematics.co.za<br>\n			</address>\n\n			<div id=\"map\" class=\"embed-responsive embed-responsive-16by9 hidden-xs embed-style\">\n				<iframe class=\"embed-responsive-item\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3461.435978136706!2d30.856916315624716!3d-29.822834981963574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef6fe5c8da45833%3A0x4ecc3ad1f08cc17d!2s2+Wareing+Rd%2C+Pinetown!5e0!3m2!1sen!2sza!4v1458064031014\"></iframe>\n			</div>\n		</div>\n\n		<div class=\"col-md-6\">\n			<h2 class=\"h_padding\">Ask a question:</h2>\n			<form 	action=\"/\" \n					name=\"contactus\" \n					id=\"contactus\" \n					method=\"post\" \n					class=\"form-horizontal\" \n					ng-init=\"info=[\n									{labelName:'Company:', inputName:'inputCompany', type:'text'},\n									{labelName:'Name:', inputName:'inputName', type:'text'},\n									{labelName:'Surname:', inputName:'inputSurname', type:'text'},\n									{labelName:'Email:', inputName:'inputEmail', type:'email'},\n									{labelName:'Phone:', inputName:'inputPhone', type:'tel'},\n									{labelName:'Subject:', inputName:'inputSubject', type:'text'}\n									]\"\n				>\n\n				<div class=\"row\" ng-repeat=\"z in info\">\n					<div class=\"form-group\">\n						<label for=\"{{z.inputName}}\" class=\"col-md-2 control-label\">{{z.labelName}}</label>\n						<div class=\"col-md-6\">\n							<input name=\"{{z.inputName}}\" type=\"{{z.type}}\" class=\"form-control\" id=\"{{z.inputName}}\" placeholder=\"*required\", required>\n						</div>\n					</div>\n				</div>\n\n				<div class=\"row\">\n					<div class=\"form-group\">\n						<label for=\"inputRegion\" class=\"col-md-2 control-label\">Region:</label>\n						<div class=\"col-md-6\" ng-init=\"region=[\n														{option:'Please Select Region', value:''},\n														{option:'Kwazulu-Natal', value:'Kwazulu-Natal'},\n														{option:'Gauteng', value:'Gauteng'},\n														{option:'Western Cape', value:'Western Cape'},\n														{option:'Eastern Cape', value:'Eastern Cape'},\n														{option:'Northen Cape', value:'Northen Cape'},\n														{option:'Mupumalanga', value:'Mupumalanga'},\n														{option:'Freestate', value:'Freestate'},\n														{option:'Northwest', value:'Northwest'},\n														{option:'Limpopo', value:'Limpopo'},\n														]\">\n							<select id=\"inputRegion\" name=\"inputRegion\" class=\"form-control\">\n								<option id=\"inputRegion\" name=\"inputRegion\" ng-repeat=\"y in region\" value=\"{{y.value}}\">{{y.option}}</option>}\n							</select>\n						</div>\n					</div>\n				</div> <!-- region -->			\n\n				<div class=\"row\">\n					<div class=\"form-group\">\n						<label for=\"inputText\" class=\"col-md-2 control-label\">Message:</label>\n						<div class=\"col-md-6\">\n							<textarea name=\"inputText\" class=\"form-control\" id=\"inputText\" cols=\"30\" rows=\"10\" placeholder=\"Please type your query here:  *required\", required></textarea>\n						</div>\n					</div>\n				</div> <!-- message -->\n\n				<div class=\"row\">\n					<div class=\"form-group\">\n						<div class=\"col-md-2\"></div>\n						<div class=\"g-recaptcha col-md-6\" data-sitekey=\"6LfoDx8TAAAAAA7NljOjYNY5ezHnYIdff63SgM3o\" style=\"transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin: 0 0;\">\n						</div>\n					</div>		\n				</div> <!-- reCAPTCHA -->\n\n					<div class=\"col-md-2\"></div>\n					<button type=\"submit\" class=\"btn btn-default\">Submit</button>\n			</form>\n		</div>\n	<!-- </div> -->\n</div>",
 			"file": "views/includes/contact.ejs",
-			"file_size": 3751,
-			"file_write_time": 131084809276230999,
 			"settings":
 			{
-				"buffer_size": 3752,
+				"buffer_size": 3809,
 				"line_ending": "Unix"
 			}
 		},
@@ -577,25 +566,85 @@
 				"buffer_size": 1030,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 1107,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 219.0,
+		"height": 58.0,
 		"selected_items":
 		[
 			[
+				"git staus",
+				"Git: Status"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git log",
+				"Git: Log Current File"
+			],
+			[
+				"git log ",
+				"Git: Log Current File"
+			],
+			[
+				"git lo",
+				"Git: Log Current File"
+			],
+			[
+				"git res",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
 				"git comm",
 				"Git: Quick Commit"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git stau",
+				"Git: Status"
+			],
+			[
+				"git pus",
+				"Git: Push Current Branch"
+			],
+			[
+				"git p",
+				"Git: Push"
 			],
 			[
 				"git status",
 				"Git: Status"
 			],
 			[
-				"git add",
-				"Git: Add..."
+				"git ",
+				"Git: Quick Commit"
+			],
+			[
+				"git co",
+				"Git: Commit"
 			],
 			[
 				"git sta",
@@ -604,22 +653,6 @@
 			[
 				"git commit",
 				"Git: Commit"
-			],
-			[
-				"git statu",
-				"Git: Status"
-			],
-			[
-				"git ",
-				"Git: Quick Commit"
-			],
-			[
-				"git stat",
-				"Git: Status"
-			],
-			[
-				"git co",
-				"Git: Quick Commit"
 			],
 			[
 				"git rese",
@@ -640,14 +673,6 @@
 			[
 				"git har",
 				"Git: Reset (hard) HEAD"
-			],
-			[
-				"git staus",
-				"Git: Status"
-			],
-			[
-				"git lo",
-				"Git: Log All"
 			],
 			[
 				"git reser",
@@ -927,11 +952,11 @@
 	},
 	"file_history":
 	[
+		"/C/Users/user/Desktop/Webstuff/RMC/public/stylesheets/style.css",
 		"/C/Users/user/Desktop/Webstuff/RMC/app.js",
 		"/C/Users/user/Desktop/Webstuff/RMC/views/index.ejs",
 		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/contact.ejs",
 		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/services.ejs",
-		"/C/Users/user/Desktop/Webstuff/RMC/public/stylesheets/style.css",
 		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/home.ejs",
 		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/about.ejs",
 		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/navigation.ejs",
@@ -1072,6 +1097,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ol",
+			"\n@",
+			"@media only screen and (min-width: 1200px) {\n	#home {\n		background-image: url(../images/RMC_background1.jpg);\n		background-repeat: no-repeat;\n	}\n} ",
+			"imgages",
+			"red",
+			"RMC2.png",
+			"	.hide {\n		visibility: hidden;\n	}",
+			".hide {\n		visibility: inherit;\n	}",
+			"none",
+			"display",
+			";\n",
 			"#services p, h1, h2 {\n	color: #ffffff; 	\n}",
 			"h3",
 			"								{",
@@ -1188,18 +1224,7 @@
 			"form-control",
 			"surname",
 			"Surname",
-			"surname",
-			" <label for=\"name\">Name</label>\n              <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Enter name\">",
-			"h2",
-			"Tax &amp; VAT",
-			"  $(\"#",
-			"All Services",
-			"Contact Us",
-			"strong",
-			"FAQ",
-			".open",
-			"hover",
-			"li"
+			"surname"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1210,7 +1235,7 @@
 			"\"",
 			""
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -1219,7 +1244,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1227,15 +1252,15 @@
 					"file": "public/stylesheets/style.css",
 					"settings":
 					{
-						"buffer_size": 1424,
+						"buffer_size": 2949,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								743,
-								743
+								1416,
+								1416
 							]
 						],
 						"settings":
@@ -1244,25 +1269,51 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
+						"translation.y": 1200.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "views/index.ejs",
+					"file": "views/includes/home.ejs",
 					"settings":
 					{
-						"buffer_size": 1102,
+						"buffer_size": 589,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1037,
-								1037
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/includes/about.ejs",
+					"settings":
+					{
+						"buffer_size": 1011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								988,
+								988
 							]
 						],
 						"settings":
@@ -1277,50 +1328,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "views/includes/home.ejs",
-					"settings":
-					{
-						"buffer_size": 244,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								231,
-								231
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/EJS/EJS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 3,
-					"file": "views/includes/about.ejs",
+					"file": "views/includes/services.ejs",
 					"settings":
 					{
-						"buffer_size": 234,
+						"buffer_size": 778,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								75,
-								60
+								778,
+								778
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/EJS/EJS.tmLanguage"
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1330,18 +1356,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "views/includes/services.ejs",
+					"file": "views/includes/contact.ejs",
 					"settings":
 					{
-						"buffer_size": 685,
+						"buffer_size": 3809,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								103,
-								121
+								942,
+								942
 							]
 						],
 						"settings":
@@ -1357,18 +1383,18 @@
 				},
 				{
 					"buffer": 5,
-					"file": "views/includes/contact.ejs",
+					"file": "views/includes/navigation.ejs",
 					"settings":
 					{
-						"buffer_size": 3752,
+						"buffer_size": 1030,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								102,
-								102
+								832,
+								837
 							]
 						],
 						"settings":
@@ -1384,18 +1410,18 @@
 				},
 				{
 					"buffer": 6,
-					"file": "views/includes/navigation.ejs",
+					"file": "views/index.ejs",
 					"settings":
 					{
-						"buffer_size": 1030,
+						"buffer_size": 1107,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								644,
+								644
 							]
 						],
 						"settings":
@@ -1465,6 +1491,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"st",
+				"public/stylesheets/style.css"
+			],
 			[
 				"nav",
 				"views/includes/navigation.ejs"
@@ -1572,6 +1602,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 203.0,
+	"side_bar_width": 215.0,
 	"status_bar_visible": true
 }

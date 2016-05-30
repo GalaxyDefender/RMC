@@ -46,12 +46,13 @@ address {
 }
 
 #home_transbox {
-	/*background-color: #ffffff;*/
+	background-color: #ffffff;
 	margin: 30px;
 	padding: 10px;
-	/*opacity: 0.8;*/
-	/*border: 1px solid black;*/
-	/*color: #000000;*/
+	opacity: 0.8;
+	border: 1px solid black;
+	color: #000000;
+	margin-top: 25%;
 }
 
 @media (min-width: 1200px) {
@@ -73,9 +74,7 @@ address {
 		background-image: url(../images/RMC_background4_x1000.jpg);
 		background-repeat: no-repeat;
 	}
-		#home_padding {
-		padding-top: 50%;
-	}
+
 } 
 
 @media (max-width: 768px) {
