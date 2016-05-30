@@ -22,13 +22,18 @@
 
 		<div class="container">
 			<!-- <h1><%= CAPTCHA %></h1> -->
-			<%- include('includes/home') %>
-
-			<%- include('includes/about') %>
-
-			<%- include('includes/services') %>
-
-			<%- include('includes/contact') %>
+			<div id="home">
+				<%- include('includes/home') %>
+			</div>
+			<div id="about">
+				<%- include('includes/about') %>
+			</div>
+			<div id="services">
+				<%- include('includes/services') %>
+			</div>
+			<div id="contact">
+				<%- include('includes/contact') %>
+			</div>
 		</div>
 
 		<%- include('includes/partials/js') %>
