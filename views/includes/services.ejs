@@ -1,16 +1,32 @@
-<!-- <div id="services"> -->
-	<!-- <div class="padding"> -->
-		<a class="smooth"></a>
-		<h1 class="text-center" id="services_back">OUR SERVICES</h1>	
-		<div class="row" ng-init="serv=[{title:'Adroit SCADA', desc:'Monitor all of your sites on your PC and view historical data.'},
-										{title:'Telemetry', desc:'With our wide range of RTU and GSM equipment we can collect data from your control panels..'},  
-										{title:'Reports', desc:'Text goes here'}]">
-			<div class="col-md-4 text-center" ng-repeat="x in serv">
-				<h2>{{x.title}}</h2>
-				<img src="images/{{x.title}}.jpg" class="img-circle img-responsive center-block" alt="">
-				<br>
-				<p>{{x.desc}}</p>
-			</div> <!-- .col-md-4 -->
-		</div> <!-- .row -->
-	<!-- </div> --> <!-- .padding -->
-<!-- </div> #services -->
+<a class="smooth"></a>
+<h1 class="text-center" id="services_back">OUR SERVICES</h1>	
+<div class="row" ng-init="serv1=[{title:'Adroit SCADA', desc:'Monitor all of your equipment on your PC and view historical data.'},
+								{title:'Telemetry', desc:'With our wide range of RTU and GSM equipment we can collect data from your equipment to do certain tasks.'},  
+								{title:'Reports', desc:'We are capable of sending daily or monthly reports, via SMS or email using Adroit Reporting.'}]">
+	<div class="col-md-4 text-center" ng-repeat="x in serv1">
+		<h2>{{x.title}}</h2>
+		<img src="images/{{x.title}}.jpg" class="img-circle img-responsive center-block" alt="">
+		<br>
+		<p>{{x.desc}}</p>
+	</div> <!-- .col-md-4 -->
+</div> <!-- .row -->
+<div class="row" ng-init="serv2=[{title:'Web based SCADA', desc:'Coming Soon'}]">
+	<div class="col-md-4 text-center" ng-repeat="x in serv2">
+		<h2>{{x.title}}</h2>
+		<img src="images/{{x.title}}.jpg" class="img-circle img-responsive center-block" alt="">
+		<br>
+		<p>{{x.desc}}</p>
+	</div> <!-- .col-md-4 -->
+</div> <!-- .row -->
+
+
+
+
+
+
+
+
+
+
+
+
