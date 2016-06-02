@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color"
+			],
+			[
+				"ul",
+				"ul	HTML - Unordered list"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
 				"bac",
 				"background-image"
 			],
 			[
 				"min",
 				"min-width"
-			],
-			[
-				"mar",
-				"margin-left"
 			],
 			[
 				"padd",
@@ -198,10 +206,6 @@
 			[
 				"add",
 				"addClass	.addClass()"
-			],
-			[
-				"ul",
-				"ul	<ul>"
 			],
 			[
 				"re",
@@ -510,10 +514,6 @@
 			[
 				"char",
 				"charAt"
-			],
-			[
-				"le",
-				"length-1"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "public/stylesheets/style.css",
 			"settings":
 			{
-				"buffer_size": 2949,
+				"buffer_size": 6153,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "views/includes/home.ejs",
 			"settings":
 			{
-				"buffer_size": 589,
+				"buffer_size": 511,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "views/includes/about.ejs",
 			"settings":
 			{
-				"buffer_size": 1011,
+				"buffer_size": 2032,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,7 +547,7 @@
 			"file": "views/includes/services.ejs",
 			"settings":
 			{
-				"buffer_size": 778,
+				"buffer_size": 1082,
 				"line_ending": "Unix"
 			}
 		},
@@ -555,7 +555,15 @@
 			"file": "views/includes/contact.ejs",
 			"settings":
 			{
-				"buffer_size": 3809,
+				"buffer_size": 3827,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 1232,
 				"line_ending": "Unix"
 			}
 		},
@@ -564,14 +572,6 @@
 			"settings":
 			{
 				"buffer_size": 1030,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/index.ejs",
-			"settings":
-			{
-				"buffer_size": 1107,
 				"line_ending": "Unix"
 			}
 		}
@@ -583,11 +583,31 @@
 		"selected_items":
 		[
 			[
-				"git staus",
+				"git status",
 				"Git: Status"
 			],
 			[
+				"git commi",
+				"Git: Quick Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
 				"git statu",
+				"Git: Status"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git stau",
+				"Git: Status"
+			],
+			[
+				"git staus",
 				"Git: Status"
 			],
 			[
@@ -611,19 +631,7 @@
 				"Git: Status"
 			],
 			[
-				"git comm",
-				"Git: Quick Commit"
-			],
-			[
 				"git st",
-				"Git: Status"
-			],
-			[
-				"git add",
-				"Git: Add..."
-			],
-			[
-				"git stau",
 				"Git: Status"
 			],
 			[
@@ -633,10 +641,6 @@
 			[
 				"git p",
 				"Git: Push"
-			],
-			[
-				"git status",
-				"Git: Status"
 			],
 			[
 				"git ",
@@ -935,7 +939,7 @@
 				"Set Syntax: CSS"
 			]
 		],
-		"width": 512.0
+		"width": 472.0
 	},
 	"console":
 	{
@@ -952,6 +956,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/user/Desktop/Webstuff/RMC/public/stylesheets/home.css",
+		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/partials/css.ejs",
 		"/C/Users/user/Desktop/Webstuff/RMC/public/stylesheets/style.css",
 		"/C/Users/user/Desktop/Webstuff/RMC/app.js",
 		"/C/Users/user/Desktop/Webstuff/RMC/views/index.ejs",
@@ -977,7 +983,6 @@
 		"/C/Users/user/Desktop/rtu-dev/script/tcpclient.js",
 		"/C/Users/user/Desktop/rtu-dev/app/app.routes.js",
 		"/C/Users/user/Desktop/rtu-dev/app/services/services.js",
-		"/C/Users/user/Desktop/Webstuff/RMC/views/includes/partials/css.ejs",
 		"/C/Users/user/Desktop/Webstuff/RMC/public/js/custom.js",
 		"/C/Users/user/Desktop/Webstuff/RMC/package.json",
 		"/C/Users/user/Desktop/Webstuff/Email_App/views/contact.jade",
@@ -1078,8 +1083,7 @@
 		"/C/NodeJS Tutorials/node_modules/express/package.json",
 		"/C/NodeJS Tutorials/node_modules/express/index.js",
 		"/C/AdroitProject/ZDM/Script/Ulundi WTP/terminal.glue",
-		"/C/Users/user/AppData/Roaming/Sublime Text 2/Packages/Glue/Glue.sublime-settings",
-		"/C/AdroitProject/ZDM/Script/Ulundi WTP/ulundi_terminal_res1_below_20.bas"
+		"/C/Users/user/AppData/Roaming/Sublime Text 2/Packages/Glue/Glue.sublime-settings"
 	],
 	"find":
 	{
@@ -1097,6 +1101,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"background",
+			"270",
+			"90",
+			"90deg",
+			".nav",
+			"serv1",
+			"4",
+			">\n",
+			"	    <",
+			"home",
 			"ol",
 			"\n@",
 			"@media only screen and (min-width: 1200px) {\n	#home {\n		background-image: url(../images/RMC_background1.jpg);\n		background-repeat: no-repeat;\n	}\n} ",
@@ -1214,17 +1228,7 @@
 			"pull",
 			"pull-left",
 			"pull",
-			"clearfix",
-			"ul",
-			"address",
-			"btn",
-			"233",
-			"175",
-			"102",
-			"form-control",
-			"surname",
-			"Surname",
-			"surname"
+			"clearfix"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1252,15 +1256,15 @@
 					"file": "public/stylesheets/style.css",
 					"settings":
 					{
-						"buffer_size": 2949,
+						"buffer_size": 6153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1416,
-								1416
+								4777,
+								4777
 							]
 						],
 						"settings":
@@ -1269,7 +1273,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1200.0,
+						"translation.y": 3100.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1279,41 +1283,15 @@
 					"file": "views/includes/home.ejs",
 					"settings":
 					{
-						"buffer_size": 589,
+						"buffer_size": 511,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								559,
-								559
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/EJS/EJS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "views/includes/about.ejs",
-					"settings":
-					{
-						"buffer_size": 1011,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								988,
-								988
+								511,
+								511
 							]
 						],
 						"settings":
@@ -1328,19 +1306,46 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "views/includes/services.ejs",
+					"buffer": 2,
+					"file": "views/includes/about.ejs",
 					"settings":
 					{
-						"buffer_size": 778,
+						"buffer_size": 2032,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								778,
-								778
+								1908,
+								1908
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 480.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/includes/services.ejs",
+					"settings":
+					{
+						"buffer_size": 1082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								462,
+								462
 							]
 						],
 						"settings":
@@ -1359,15 +1364,15 @@
 					"file": "views/includes/contact.ejs",
 					"settings":
 					{
-						"buffer_size": 3809,
+						"buffer_size": 3827,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								942,
-								942
+								3792,
+								3792
 							]
 						],
 						"settings":
@@ -1383,6 +1388,33 @@
 				},
 				{
 					"buffer": 5,
+					"file": "views/index.ejs",
+					"settings":
+					{
+						"buffer_size": 1232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								724,
+								724
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "views/includes/navigation.ejs",
 					"settings":
 					{
@@ -1393,35 +1425,8 @@
 						"selection":
 						[
 							[
-								832,
-								837
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/EJS/EJS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "views/index.ejs",
-					"settings":
-					{
-						"buffer_size": 1107,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								644,
-								644
+								2,
+								2
 							]
 						],
 						"settings":
@@ -1492,6 +1497,14 @@
 		"selected_items":
 		[
 			[
+				"styl",
+				"public/stylesheets/style.css"
+			],
+			[
+				"css.e",
+				"views/includes/partials/css.ejs"
+			],
+			[
 				"st",
 				"public/stylesheets/style.css"
 			],
@@ -1514,10 +1527,6 @@
 			[
 				"abou",
 				"views/includes/about.ejs"
-			],
-			[
-				"styl",
-				"public/stylesheets/style.css"
 			],
 			[
 				"ser",
