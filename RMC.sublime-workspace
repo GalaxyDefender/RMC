@@ -523,7 +523,7 @@
 			"file": "public/stylesheets/style.css",
 			"settings":
 			{
-				"buffer_size": 6153,
+				"buffer_size": 4397,
 				"line_ending": "Windows"
 			}
 		},
@@ -579,11 +579,23 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 219.0,
 		"selected_items":
 		[
 			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
 				"git status",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git stat",
 				"Git: Status"
 			],
 			[
@@ -591,16 +603,8 @@
 				"Git: Quick Commit"
 			],
 			[
-				"git add",
-				"Git: Add..."
-			],
-			[
 				"git statu",
 				"Git: Status"
-			],
-			[
-				"git comm",
-				"Git: Commit"
 			],
 			[
 				"git stau",
@@ -625,10 +629,6 @@
 			[
 				"git res",
 				"Git: Reset (hard) HEAD"
-			],
-			[
-				"git stat",
-				"Git: Status"
 			],
 			[
 				"git st",
@@ -1256,15 +1256,15 @@
 					"file": "public/stylesheets/style.css",
 					"settings":
 					{
-						"buffer_size": 6153,
+						"buffer_size": 4397,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4777,
-								4777
+								4397,
+								4397
 							]
 						],
 						"settings":
@@ -1273,7 +1273,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3100.0,
+						"translation.y": 4056.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1610,7 +1610,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 215.0,
 	"status_bar_visible": true
 }
