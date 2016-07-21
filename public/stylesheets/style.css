@@ -47,8 +47,14 @@ input, .form-control, .btn {
 	border: 2px solid black;
 }
 
-#home, #about, #services, #contact {
+/*#home, #about, #services, #contact {
 	height: 800px;
+	margin-bottom: 10px;
+	padding-top: 50px;
+}*/
+
+section {
+	height: 100vh;
 	margin-bottom: 10px;
 	padding-top: 50px;
 }
