@@ -1,0 +1,252 @@
+body {
+  position: relative;
+}
+
+a {
+  color: #000000;
+}
+
+p, br {
+	font-size: 2.5vh;
+}
+
+address {
+	font-size: 18px;	
+}
+
+.nav {
+	margin-right: 15px;
+	/*color: red;*/
+	/*background-color: red;*/
+}
+
+.active li{
+	color: red;
+	background-color: red;
+}
+
+.padding {
+	padding: 10px;
+	margin: 30px;
+}
+
+.inline {
+	display: inline; 
+}
+
+iframe, .embed-style {
+	border: 4px outset #ACA8A8;
+}
+
+input, .form-control, .btn {
+	border: 2px outset #ACA8A8;	
+}
+
+.img-circle {
+	border: 2px solid black;
+}
+
+/*#home, #about, #services, #contact {
+	height: 800px;
+	margin-bottom: 10px;
+	padding-top: 50px;
+}*/
+
+section {
+	height: 100vh;
+	margin-bottom: 10px;
+	padding-top: 50px;
+}
+
+/******************************************* HOME **************************************************/
+
+
+
+#home_padding {
+	padding-top: 30%;
+}
+
+#home #xs-background {
+	height: auto;
+	width: 75%;
+	margin-top: 60px;
+	margin-left: 20px;
+}
+
+#home_transbox {
+	/*background-color: #fff;*/
+	margin: 30px;
+	padding: 10px;
+	/*opacity: 0.8;*/
+	/*border: 1px solid black;*/
+	/*color: #000000;*/
+	/*margin-top: 10%;*/
+}
+
+#home img {
+	height: 50vmin;
+	display: block;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+#home h1 {
+	font-size: 8vmin;
+	text-align: center;
+}
+
+/*********************************************** ABOUT ********************************************/
+
+#about {
+	background: url(../images/thumb.jpg);
+	background-repeat: no-repeat;
+	/*overflow: hidden;*/
+	/*width: 100vw;*/
+}
+
+
+#about_transbox {
+	background-color: #ffffff;
+	margin: 30px;
+	padding: 10px;
+	opacity: 0.9;
+	border: 1px solid black;
+	color: #000000;
+}
+
+#about_back {
+	position: relative;
+	padding-top: 5px;
+	height: 50px;
+	background-color: #295575;
+	color: #ffffff;
+}
+
+#about li {
+	font-size: 1.8vh;
+}
+
+/******************************************** SERVICES ****************************************************/
+
+#services {
+	background: url(../images/services.jpg);
+	background-repeat: no-repeat;
+	/*height: 100vh;*/
+}
+
+#services p {
+	color: #ffffff; 	
+}
+
+#services h1 {
+	color: #ffffff; 	
+}
+
+#services h2 {
+	color: #ffffff; 	
+}
+
+#services_back {
+	/*height: 100vh;*/
+	position: relative;
+	padding-top: 5px;
+	height: 50px;
+	background-color: #53AAEB;
+	color: #ffffff;
+}
+
+.serv {
+	float: left;
+}
+/****************************************** CONTACT ****************************************************/
+
+
+#contact_back {
+	position: relative;
+	padding-top: 5px;
+	height: 50px;
+	background-color: #9FCAEB;
+}
+
+/********************************************* RESPONSIVE ***********************************************/
+
+/**************** Large Devices - Desktops >= 1200px ************/
+
+@media (min-width: 1200px) {
+
+	#about, #services {
+		background-size: 100% 1000px
+	}
+} 
+
+/**************** Medium Devices - Desktops >= 992px ************/
+
+@media (max-width: 1200px) and (min-width: 992px){
+
+	#about, #services {
+		background-size: 100% 1000px
+	}
+} 
+
+/**************** Small Devices - Tablets >= 768px ************/
+
+@media (max-width: 992px) and (min-width: 768px){
+
+	#about {
+		background-image: url(../images/thumb_x1000.jpg);
+		background-repeat: no-repeat;
+	}
+
+	#services {
+		height: 1270px;
+		background-size: 100% 1270px
+	}
+} 
+
+/**************** Small Devices - Tablets < 800px ************/
+
+@media only screen and (max-width: 800px) {
+
+	#about {
+		/*height: 1000px;*/
+		/*background-size: 100% 1270px*/
+	}
+
+	#services {
+		height: 1270px;
+		background-size: 100% 1270px
+	}
+}
+
+/**************** Extra Devices - Phones < 768px ************/
+
+@media (max-width: 768px) {
+
+	#home_padding {
+		padding-top: 70%;
+	}
+
+	#about {
+		height: 1000px;
+		/*background-size: 100% 1270px*/
+	}
+
+	#about {
+		background-size: 100% 1024px
+	}
+}
+
+/**************** Extra Devices - Phones < 460px ************/
+
+@media (max-width: 460px) {
+
+	#about {
+		height: 1050px;
+		/*background-size: 100% 1270px*/
+	}
+
+	#services {
+		height: 1320px;
+		background-size: 100% 1320px
+	}
+}

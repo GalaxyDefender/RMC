@@ -1,4 +1,5 @@
-gulpfile.js
-node_modules/
-website.sublime-project
-website.sublime-workspace
+*.xcf
+*.sublime-project
+*.sublime-workspace
+*.log
+node_modules
